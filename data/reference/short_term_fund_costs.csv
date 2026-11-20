@@ -1,0 +1,13 @@
+fund_code,fund,cost_pct,basis,data_year,source
+PKO005,PKO Obligacji Skarbowych Krótkoterminowy,0.75,KID ongoing charges,2023,https://pkobp.pl/api/public/3fc7858b-3d00-48dc-a13c-a10053c99bee.pdf
+PIO046,Pekao Spokojna Inwestycja,0.80,estimate: management fee 0.70 plus about 0.10 administrative costs; excludes performance fee,2026,https://pekaotfi.pl/uploads/media/default/0001/25/a5a4099e7d0d67f0c711793e1b29b2d7f2174ed4.pdf
+PIO011,Pekao Konserwatywny,1.21,estimate: management fee 0.88 plus about 0.10 administrative costs plus performance fee 0.23 (2025),2024-2025,https://www.analizy.pl/fundusze-inwestycyjne-otwarte/PIO08/pekao-konserwatywny
+MIL004,Millennium Obligacji Klasyczny,1.13,KID ongoing charges (class B representative of classes A and E),2026,https://portal.api.bankmillennium.pl/bm/docs/tfi/KID%20-%20Millennium%20Obligacji%20Klasyczny%20FIO.pdf
+PIO059,Pekao Konserwatywny Plus,1.14,Pekao TFI cost table (class A),2024,https://pekaotfi.pl/uploads/media/default/0001/27/acfa46cd45f96b5ae16cbecda787d7d1baaefb3f.pdf
+BZW003,Erste Dłużny Krótkoterminowy,0.48,KID: management and administrative 0.46 plus transaction 0.02,2026,https://www.erste.pl/regulation_file_server/time20261019080110/download?id=161160&lang=pl_PL
+ING024,ING Krótkoterminowy Obligacji,1.21,ING Bank document: ongoing fund costs,undated,https://www.ing.pl/_fileserver/item/1128046
+PZU016,PZU SEJF+,0.54,PZU document: ongoing charges,2021,https://www.pzu.pl/_fileserver/item/1545721
+PZU004,PZU Obligacji Krótkoterminowych,1.22,PZU document: ongoing charges (IKE class),older,https://www.pzu.pl/_fileserver/item/1534365
+BZW027,Erste Prestiż Krótkoterminowy Uniwersalny,0.48,KID: management and administrative 0.47 plus transaction 0.01,2026,https://www.erste.pl/regulation_file_server/time20261019083158/download?id=161173&lang=pl_PL
+ING004,ING Konserwatywny,0.71,ING Bank document: ongoing fund costs,undated,https://www.ing.pl/_fileserver/item/1128046
+ING051,ING Obligacji Plus,1.21,ING Bank document: ongoing fund costs,undated,https://www.ing.pl/_fileserver/item/1128046

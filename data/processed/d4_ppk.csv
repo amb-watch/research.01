@@ -1,0 +1,4 @@
+scenario,gross_pay,employer_net_year,loss_per_person_year,opted_out_mn,annual_loss_pln
+conservative,6000.0,950.0,665.0,2.5,1663199999.9999998
+base,7400.0,1172.0,1116.0,2.8,3125740800.0
+aggressive,9266.0,1468.0,1708.0,3.2,5464750079.999999

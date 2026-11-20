@@ -1,0 +1,4361 @@
+{
+ "d1_table": [
+  {
+   "scenario": "conservative",
+   "deposit_type": "current",
+   "coi_rate_pct": 3.812,
+   "deposit_rate_pct": 0.49,
+   "gap_after_tax_pp": 2.541,
+   "movable_share": 0.05,
+   "movable_bn": 55.645,
+   "gap_bn": 1.414
+  },
+  {
+   "scenario": "conservative",
+   "deposit_type": "term",
+   "coi_rate_pct": 3.812,
+   "deposit_rate_pct": 2.79,
+   "gap_after_tax_pp": 0.678,
+   "movable_share": 0.5,
+   "movable_bn": 200.15,
+   "gap_bn": 1.357
+  },
+  {
+   "scenario": "base",
+   "deposit_type": "current",
+   "coi_rate_pct": 4.562,
+   "deposit_rate_pct": 0.49,
+   "gap_after_tax_pp": 3.224,
+   "movable_share": 0.15,
+   "movable_bn": 166.935,
+   "gap_bn": 5.382
+  },
+  {
+   "scenario": "base",
+   "deposit_type": "term",
+   "coi_rate_pct": 4.562,
+   "deposit_rate_pct": 2.79,
+   "gap_after_tax_pp": 1.361,
+   "movable_share": 0.7,
+   "movable_bn": 280.21,
+   "gap_bn": 3.813
+  },
+  {
+   "scenario": "aggressive",
+   "deposit_type": "current",
+   "coi_rate_pct": 5.312,
+   "deposit_rate_pct": 0.49,
+   "gap_after_tax_pp": 3.906,
+   "movable_share": 0.25,
+   "movable_bn": 278.225,
+   "gap_bn": 10.868
+  },
+  {
+   "scenario": "aggressive",
+   "deposit_type": "term",
+   "coi_rate_pct": 5.312,
+   "deposit_rate_pct": 2.79,
+   "gap_after_tax_pp": 2.043,
+   "movable_share": 0.9,
+   "movable_bn": 360.27,
+   "gap_bn": 7.361
+  }
+ ],
+ "d1_tornado": {
+  "base": 9.19,
+  "rows": [
+   {
+    "label": "Share of current accounts (5% to 25%)",
+    "lo": 5.61,
+    "hi": 12.78
+   },
+   {
+    "label": "Inflation in years 2 to 4 (2% to 4%)",
+    "lo": 6.48,
+    "hi": 11.91
+   },
+   {
+    "label": "Share of term deposits (50% to 90%)",
+    "lo": 8.11,
+    "hi": 10.28
+   },
+   {
+    "label": "Early redemptions (30% to 0%)",
+    "lo": 8.86,
+    "hi": 9.53
+   }
+  ]
+ },
+ "d1_rates": {
+  "Current accounts": 0.49,
+  "Term deposits": 2.79,
+  "CPI, Oct 2026": 3.5,
+  "COI, 4 year average": 4.56
+ },
+ "d1_history": [
+  {
+   "month": "2005-01",
+   "current": 1.38,
+   "term": 4.54,
+   "cpi": 3.7
+  },
+  {
+   "month": "2005-02",
+   "current": 1.43,
+   "term": 4.58,
+   "cpi": 3.6
+  },
+  {
+   "month": "2005-03",
+   "current": 1.51,
+   "term": 4.53,
+   "cpi": 3.4
+  },
+  {
+   "month": "2005-04",
+   "current": 1.53,
+   "term": 4.34,
+   "cpi": 3.0
+  },
+  {
+   "month": "2005-05",
+   "current": 1.43,
+   "term": 4.09,
+   "cpi": 2.5
+  },
+  {
+   "month": "2005-06",
+   "current": 1.45,
+   "term": 3.88,
+   "cpi": 1.4
+  },
+  {
+   "month": "2005-07",
+   "current": 1.57,
+   "term": 3.68,
+   "cpi": 1.3
+  },
+  {
+   "month": "2005-08",
+   "current": 1.29,
+   "term": 3.55,
+   "cpi": 1.6
+  },
+  {
+   "month": "2005-09",
+   "current": 1.22,
+   "term": 3.43,
+   "cpi": 1.8
+  },
+  {
+   "month": "2005-10",
+   "current": 1.26,
+   "term": 3.28,
+   "cpi": 1.6
+  },
+  {
+   "month": "2005-11",
+   "current": 1.29,
+   "term": 3.35,
+   "cpi": 1.0
+  },
+  {
+   "month": "2005-12",
+   "current": 1.25,
+   "term": 3.25,
+   "cpi": 0.7
+  },
+  {
+   "month": "2006-01",
+   "current": 1.27,
+   "term": 3.02,
+   "cpi": 0.6
+  },
+  {
+   "month": "2006-02",
+   "current": 1.24,
+   "term": 3.07,
+   "cpi": 0.7
+  },
+  {
+   "month": "2006-03",
+   "current": 1.18,
+   "term": 2.81,
+   "cpi": 0.4
+  },
+  {
+   "month": "2006-04",
+   "current": 1.14,
+   "term": 2.82,
+   "cpi": 0.7
+  },
+  {
+   "month": "2006-05",
+   "current": 1.14,
+   "term": 2.77,
+   "cpi": 0.9
+  },
+  {
+   "month": "2006-06",
+   "current": 1.21,
+   "term": 2.77,
+   "cpi": 0.8
+  },
+  {
+   "month": "2006-07",
+   "current": 1.14,
+   "term": 2.81,
+   "cpi": 1.1
+  },
+  {
+   "month": "2006-08",
+   "current": 1.14,
+   "term": 2.8,
+   "cpi": 1.6
+  },
+  {
+   "month": "2006-09",
+   "current": 1.19,
+   "term": 2.81,
+   "cpi": 1.6
+  },
+  {
+   "month": "2006-10",
+   "current": 1.21,
+   "term": 2.82,
+   "cpi": 1.2
+  },
+  {
+   "month": "2006-11",
+   "current": 1.22,
+   "term": 2.81,
+   "cpi": 1.4
+  },
+  {
+   "month": "2006-12",
+   "current": 1.21,
+   "term": 2.81,
+   "cpi": 1.4
+  },
+  {
+   "month": "2007-01",
+   "current": 1.22,
+   "term": 2.85,
+   "cpi": 1.6
+  },
+  {
+   "month": "2007-02",
+   "current": 1.23,
+   "term": 2.84,
+   "cpi": 1.9
+  },
+  {
+   "month": "2007-03",
+   "current": 1.18,
+   "term": 2.85,
+   "cpi": 2.5
+  },
+  {
+   "month": "2007-04",
+   "current": 1.24,
+   "term": 2.84,
+   "cpi": 2.3
+  },
+  {
+   "month": "2007-05",
+   "current": 1.29,
+   "term": 2.81,
+   "cpi": 2.3
+  },
+  {
+   "month": "2007-06",
+   "current": 1.3,
+   "term": 2.9,
+   "cpi": 2.6
+  },
+  {
+   "month": "2007-07",
+   "current": 1.3,
+   "term": 3.01,
+   "cpi": 2.3
+  },
+  {
+   "month": "2007-08",
+   "current": 1.32,
+   "term": 3.34,
+   "cpi": 1.5
+  },
+  {
+   "month": "2007-09",
+   "current": 1.41,
+   "term": 3.25,
+   "cpi": 2.3
+  },
+  {
+   "month": "2007-10",
+   "current": 1.48,
+   "term": 3.33,
+   "cpi": 3.0
+  },
+  {
+   "month": "2007-11",
+   "current": 1.5,
+   "term": 3.38,
+   "cpi": 3.6
+  },
+  {
+   "month": "2007-12",
+   "current": 1.5,
+   "term": 3.47,
+   "cpi": 4.0
+  },
+  {
+   "month": "2008-01",
+   "current": 1.57,
+   "term": 3.58,
+   "cpi": 4.0
+  },
+  {
+   "month": "2008-02",
+   "current": 1.63,
+   "term": 3.53,
+   "cpi": 4.2
+  },
+  {
+   "month": "2008-03",
+   "current": 1.69,
+   "term": 3.7,
+   "cpi": 4.1
+  },
+  {
+   "month": "2008-04",
+   "current": 1.73,
+   "term": 3.81,
+   "cpi": 4.0
+  },
+  {
+   "month": "2008-05",
+   "current": 1.77,
+   "term": 3.88,
+   "cpi": 4.4
+  },
+  {
+   "month": "2008-06",
+   "current": 1.83,
+   "term": 3.94,
+   "cpi": 4.6
+  },
+  {
+   "month": "2008-07",
+   "current": 1.86,
+   "term": 4.17,
+   "cpi": 4.8
+  },
+  {
+   "month": "2008-08",
+   "current": 1.83,
+   "term": 4.28,
+   "cpi": 4.8
+  },
+  {
+   "month": "2008-09",
+   "current": 1.73,
+   "term": 4.59,
+   "cpi": 4.5
+  },
+  {
+   "month": "2008-10",
+   "current": 1.68,
+   "term": 4.79,
+   "cpi": 4.2
+  },
+  {
+   "month": "2008-11",
+   "current": 1.72,
+   "term": 5.81,
+   "cpi": 3.7
+  },
+  {
+   "month": "2008-12",
+   "current": 1.74,
+   "term": 6.05,
+   "cpi": 3.3
+  },
+  {
+   "month": "2009-01",
+   "current": 1.79,
+   "term": 6.26,
+   "cpi": 2.8
+  },
+  {
+   "month": "2009-02",
+   "current": 1.75,
+   "term": 6.41,
+   "cpi": 3.3
+  },
+  {
+   "month": "2009-03",
+   "current": 1.73,
+   "term": 6.14,
+   "cpi": 3.6
+  },
+  {
+   "month": "2009-04",
+   "current": 1.65,
+   "term": 5.54,
+   "cpi": 4.0
+  },
+  {
+   "month": "2009-05",
+   "current": 1.64,
+   "term": 5.52,
+   "cpi": 3.6
+  },
+  {
+   "month": "2009-06",
+   "current": 1.66,
+   "term": 5.33,
+   "cpi": 3.5
+  },
+  {
+   "month": "2009-07",
+   "current": 1.74,
+   "term": 5.28,
+   "cpi": 3.6
+  },
+  {
+   "month": "2009-08",
+   "current": 1.73,
+   "term": 5.23,
+   "cpi": 3.7
+  },
+  {
+   "month": "2009-09",
+   "current": 1.79,
+   "term": 5.15,
+   "cpi": 3.4
+  },
+  {
+   "month": "2009-10",
+   "current": 1.84,
+   "term": 5.07,
+   "cpi": 3.1
+  },
+  {
+   "month": "2009-11",
+   "current": 1.89,
+   "term": 4.92,
+   "cpi": 3.3
+  },
+  {
+   "month": "2009-12",
+   "current": 1.91,
+   "term": 4.77,
+   "cpi": 3.5
+  },
+  {
+   "month": "2010-01",
+   "current": 1.95,
+   "term": 4.95,
+   "cpi": 3.5
+  },
+  {
+   "month": "2010-02",
+   "current": 2.04,
+   "term": 4.84,
+   "cpi": 2.9
+  },
+  {
+   "month": "2010-03",
+   "current": 2.08,
+   "term": 4.63,
+   "cpi": 2.6
+  },
+  {
+   "month": "2010-04",
+   "current": 2.08,
+   "term": 4.35,
+   "cpi": 2.4
+  },
+  {
+   "month": "2010-05",
+   "current": 2.09,
+   "term": 4.35,
+   "cpi": 2.2
+  },
+  {
+   "month": "2010-06",
+   "current": 2.09,
+   "term": 4.26,
+   "cpi": 2.3
+  },
+  {
+   "month": "2010-07",
+   "current": 1.98,
+   "term": 4.18,
+   "cpi": 2.0
+  },
+  {
+   "month": "2010-08",
+   "current": 1.98,
+   "term": 4.17,
+   "cpi": 2.0
+  },
+  {
+   "month": "2010-09",
+   "current": 2.07,
+   "term": 4.14,
+   "cpi": 2.5
+  },
+  {
+   "month": "2010-10",
+   "current": 2.01,
+   "term": 4.33,
+   "cpi": 2.8
+  },
+  {
+   "month": "2010-11",
+   "current": 1.99,
+   "term": 4.17,
+   "cpi": 2.7
+  },
+  {
+   "month": "2010-12",
+   "current": 1.97,
+   "term": 4.08,
+   "cpi": 3.1
+  },
+  {
+   "month": "2011-01",
+   "current": 1.99,
+   "term": 3.95,
+   "cpi": 3.6
+  },
+  {
+   "month": "2011-02",
+   "current": 2.03,
+   "term": 3.97,
+   "cpi": 3.6
+  },
+  {
+   "month": "2011-03",
+   "current": 2.03,
+   "term": 3.96,
+   "cpi": 4.3
+  },
+  {
+   "month": "2011-04",
+   "current": 2.01,
+   "term": 3.98,
+   "cpi": 4.5
+  },
+  {
+   "month": "2011-05",
+   "current": 2.02,
+   "term": 3.99,
+   "cpi": 5.0
+  },
+  {
+   "month": "2011-06",
+   "current": 2.02,
+   "term": 4.04,
+   "cpi": 4.2
+  },
+  {
+   "month": "2011-07",
+   "current": 2.0,
+   "term": 4.08,
+   "cpi": 4.1
+  },
+  {
+   "month": "2011-08",
+   "current": 2.05,
+   "term": 4.08,
+   "cpi": 4.3
+  },
+  {
+   "month": "2011-09",
+   "current": 2.1,
+   "term": 4.08,
+   "cpi": 3.9
+  },
+  {
+   "month": "2011-10",
+   "current": 2.08,
+   "term": 4.26,
+   "cpi": 4.3
+  },
+  {
+   "month": "2011-11",
+   "current": 2.1,
+   "term": 4.31,
+   "cpi": 4.8
+  },
+  {
+   "month": "2011-12",
+   "current": 2.08,
+   "term": 4.31,
+   "cpi": 4.6
+  },
+  {
+   "month": "2012-01",
+   "current": 2.08,
+   "term": 4.48,
+   "cpi": 4.1
+  },
+  {
+   "month": "2012-02",
+   "current": 2.06,
+   "term": 4.49,
+   "cpi": 4.3
+  },
+  {
+   "month": "2012-03",
+   "current": 2.05,
+   "term": 4.36,
+   "cpi": 3.9
+  },
+  {
+   "month": "2012-04",
+   "current": 2.02,
+   "term": 4.36,
+   "cpi": 4.0
+  },
+  {
+   "month": "2012-05",
+   "current": 2.02,
+   "term": 4.59,
+   "cpi": 3.6
+  },
+  {
+   "month": "2012-06",
+   "current": 2.06,
+   "term": 4.55,
+   "cpi": 4.3
+  },
+  {
+   "month": "2012-07",
+   "current": 2.07,
+   "term": 4.71,
+   "cpi": 4.0
+  },
+  {
+   "month": "2012-08",
+   "current": 2.06,
+   "term": 4.72,
+   "cpi": 3.8
+  },
+  {
+   "month": "2012-09",
+   "current": 2.05,
+   "term": 4.81,
+   "cpi": 3.8
+  },
+  {
+   "month": "2012-10",
+   "current": 2.05,
+   "term": 4.85,
+   "cpi": 3.4
+  },
+  {
+   "month": "2012-11",
+   "current": 2.08,
+   "term": 4.72,
+   "cpi": 2.8
+  },
+  {
+   "month": "2012-12",
+   "current": 2.07,
+   "term": 4.76,
+   "cpi": 2.4
+  },
+  {
+   "month": "2013-01",
+   "current": 2.14,
+   "term": 4.64,
+   "cpi": 1.7
+  },
+  {
+   "month": "2013-02",
+   "current": 2.07,
+   "term": 4.53,
+   "cpi": 1.3
+  },
+  {
+   "month": "2013-03",
+   "current": 1.96,
+   "term": 4.29,
+   "cpi": 1.0
+  },
+  {
+   "month": "2013-04",
+   "current": 1.75,
+   "term": 4.1,
+   "cpi": 0.8
+  },
+  {
+   "month": "2013-05",
+   "current": 1.65,
+   "term": 3.85,
+   "cpi": 0.5
+  },
+  {
+   "month": "2013-06",
+   "current": 1.45,
+   "term": 3.71,
+   "cpi": 0.2
+  },
+  {
+   "month": "2013-07",
+   "current": 1.37,
+   "term": 3.52,
+   "cpi": 1.1
+  },
+  {
+   "month": "2013-08",
+   "current": 1.21,
+   "term": 3.16,
+   "cpi": 1.1
+  },
+  {
+   "month": "2013-09",
+   "current": 1.22,
+   "term": 3.03,
+   "cpi": 1.0
+  },
+  {
+   "month": "2013-10",
+   "current": 1.16,
+   "term": 2.78,
+   "cpi": 0.8
+  },
+  {
+   "month": "2013-11",
+   "current": 1.11,
+   "term": 2.67,
+   "cpi": 0.6
+  },
+  {
+   "month": "2013-12",
+   "current": 1.06,
+   "term": 2.66,
+   "cpi": 0.7
+  },
+  {
+   "month": "2014-01",
+   "current": 1.07,
+   "term": 2.5,
+   "cpi": 0.5
+  },
+  {
+   "month": "2014-02",
+   "current": 1.06,
+   "term": 2.45,
+   "cpi": 0.7
+  },
+  {
+   "month": "2014-03",
+   "current": 1.04,
+   "term": 2.44,
+   "cpi": 0.7
+  },
+  {
+   "month": "2014-04",
+   "current": 1.03,
+   "term": 2.44,
+   "cpi": 0.3
+  },
+  {
+   "month": "2014-05",
+   "current": 1.03,
+   "term": 2.43,
+   "cpi": 0.2
+  },
+  {
+   "month": "2014-06",
+   "current": 1.03,
+   "term": 2.43,
+   "cpi": 0.3
+  },
+  {
+   "month": "2014-07",
+   "current": 1.01,
+   "term": 2.45,
+   "cpi": -0.2
+  },
+  {
+   "month": "2014-08",
+   "current": 1.01,
+   "term": 2.46,
+   "cpi": -0.3
+  },
+  {
+   "month": "2014-09",
+   "current": 1.01,
+   "term": 2.51,
+   "cpi": -0.3
+  },
+  {
+   "month": "2014-10",
+   "current": 0.98,
+   "term": 2.49,
+   "cpi": -0.6
+  },
+  {
+   "month": "2014-11",
+   "current": 0.95,
+   "term": 2.45,
+   "cpi": -0.6
+  },
+  {
+   "month": "2014-12",
+   "current": 0.82,
+   "term": 2.42,
+   "cpi": -1.0
+  },
+  {
+   "month": "2015-01",
+   "current": 0.77,
+   "term": 2.32,
+   "cpi": -1.4
+  },
+  {
+   "month": "2015-02",
+   "current": 0.73,
+   "term": 2.25,
+   "cpi": -1.6
+  },
+  {
+   "month": "2015-03",
+   "current": 0.7,
+   "term": 2.17,
+   "cpi": -1.5
+  },
+  {
+   "month": "2015-04",
+   "current": 0.63,
+   "term": 2.11,
+   "cpi": -1.1
+  },
+  {
+   "month": "2015-05",
+   "current": 0.58,
+   "term": 2.03,
+   "cpi": -0.9
+  },
+  {
+   "month": "2015-06",
+   "current": 0.57,
+   "term": 1.96,
+   "cpi": -0.8
+  },
+  {
+   "month": "2015-07",
+   "current": 0.54,
+   "term": 1.91,
+   "cpi": -0.7
+  },
+  {
+   "month": "2015-08",
+   "current": 0.53,
+   "term": 1.84,
+   "cpi": -0.6
+  },
+  {
+   "month": "2015-09",
+   "current": 0.53,
+   "term": 1.82,
+   "cpi": -0.8
+  },
+  {
+   "month": "2015-10",
+   "current": 0.53,
+   "term": 1.78,
+   "cpi": -0.7
+  },
+  {
+   "month": "2015-11",
+   "current": 0.53,
+   "term": 1.75,
+   "cpi": -0.6
+  },
+  {
+   "month": "2015-12",
+   "current": 0.52,
+   "term": 1.73,
+   "cpi": -0.5
+  },
+  {
+   "month": "2016-01",
+   "current": 0.51,
+   "term": 1.74,
+   "cpi": -0.9
+  },
+  {
+   "month": "2016-02",
+   "current": 0.51,
+   "term": 1.69,
+   "cpi": -0.8
+  },
+  {
+   "month": "2016-03",
+   "current": 0.52,
+   "term": 1.7,
+   "cpi": -0.9
+  },
+  {
+   "month": "2016-04",
+   "current": 0.51,
+   "term": 1.63,
+   "cpi": -1.1
+  },
+  {
+   "month": "2016-05",
+   "current": 0.5,
+   "term": 1.59,
+   "cpi": -0.9
+  },
+  {
+   "month": "2016-06",
+   "current": 0.49,
+   "term": 1.56,
+   "cpi": -0.8
+  },
+  {
+   "month": "2016-07",
+   "current": 0.49,
+   "term": 1.73,
+   "cpi": -0.9
+  },
+  {
+   "month": "2016-08",
+   "current": 0.49,
+   "term": 1.67,
+   "cpi": -0.8
+  },
+  {
+   "month": "2016-09",
+   "current": 0.49,
+   "term": 1.64,
+   "cpi": -0.5
+  },
+  {
+   "month": "2016-10",
+   "current": 0.5,
+   "term": 1.61,
+   "cpi": -0.2
+  },
+  {
+   "month": "2016-11",
+   "current": 0.5,
+   "term": 1.6,
+   "cpi": 0.0
+  },
+  {
+   "month": "2016-12",
+   "current": 0.47,
+   "term": 1.6,
+   "cpi": 0.8
+  },
+  {
+   "month": "2017-01",
+   "current": 0.5,
+   "term": 1.64,
+   "cpi": 1.7
+  },
+  {
+   "month": "2017-02",
+   "current": 0.49,
+   "term": 1.55,
+   "cpi": 2.2
+  },
+  {
+   "month": "2017-03",
+   "current": 0.47,
+   "term": 1.52,
+   "cpi": 2.0
+  },
+  {
+   "month": "2017-04",
+   "current": 0.48,
+   "term": 1.51,
+   "cpi": 2.0
+  },
+  {
+   "month": "2017-05",
+   "current": 0.49,
+   "term": 1.49,
+   "cpi": 1.9
+  },
+  {
+   "month": "2017-06",
+   "current": 0.47,
+   "term": 1.48,
+   "cpi": 1.5
+  },
+  {
+   "month": "2017-07",
+   "current": 0.48,
+   "term": 1.48,
+   "cpi": 1.7
+  },
+  {
+   "month": "2017-08",
+   "current": 0.48,
+   "term": 1.49,
+   "cpi": 1.8
+  },
+  {
+   "month": "2017-09",
+   "current": 0.47,
+   "term": 1.49,
+   "cpi": 2.2
+  },
+  {
+   "month": "2017-10",
+   "current": 0.49,
+   "term": 1.53,
+   "cpi": 2.1
+  },
+  {
+   "month": "2017-11",
+   "current": 0.48,
+   "term": 1.54,
+   "cpi": 2.5
+  },
+  {
+   "month": "2017-12",
+   "current": 0.46,
+   "term": 1.52,
+   "cpi": 2.1
+  },
+  {
+   "month": "2018-01",
+   "current": 0.47,
+   "term": 1.55,
+   "cpi": 1.9
+  },
+  {
+   "month": "2018-02",
+   "current": 0.48,
+   "term": 1.55,
+   "cpi": 1.4
+  },
+  {
+   "month": "2018-03",
+   "current": 0.46,
+   "term": 1.54,
+   "cpi": 1.3
+  },
+  {
+   "month": "2018-04",
+   "current": 0.48,
+   "term": 1.54,
+   "cpi": 1.6
+  },
+  {
+   "month": "2018-05",
+   "current": 0.48,
+   "term": 1.55,
+   "cpi": 1.7
+  },
+  {
+   "month": "2018-06",
+   "current": 0.47,
+   "term": 1.57,
+   "cpi": 2.0
+  },
+  {
+   "month": "2018-07",
+   "current": 0.48,
+   "term": 1.58,
+   "cpi": 2.0
+  },
+  {
+   "month": "2018-08",
+   "current": 0.48,
+   "term": 1.56,
+   "cpi": 2.0
+  },
+  {
+   "month": "2018-09",
+   "current": 0.47,
+   "term": 1.58,
+   "cpi": 1.9
+  },
+  {
+   "month": "2018-10",
+   "current": 0.49,
+   "term": 1.58,
+   "cpi": 1.8
+  },
+  {
+   "month": "2018-11",
+   "current": 0.49,
+   "term": 1.5,
+   "cpi": 1.3
+  },
+  {
+   "month": "2018-12",
+   "current": 0.47,
+   "term": 1.61,
+   "cpi": 1.1
+  },
+  {
+   "month": "2019-01",
+   "current": 0.48,
+   "term": 1.67,
+   "cpi": 0.7
+  },
+  {
+   "month": "2019-02",
+   "current": 0.49,
+   "term": 1.69,
+   "cpi": 1.2
+  },
+  {
+   "month": "2019-03",
+   "current": 0.49,
+   "term": 1.66,
+   "cpi": 1.7
+  },
+  {
+   "month": "2019-04",
+   "current": 0.51,
+   "term": 1.63,
+   "cpi": 2.2
+  },
+  {
+   "month": "2019-05",
+   "current": 0.52,
+   "term": 1.59,
+   "cpi": 2.4
+  },
+  {
+   "month": "2019-06",
+   "current": 0.51,
+   "term": 1.58,
+   "cpi": 2.6
+  },
+  {
+   "month": "2019-07",
+   "current": 0.48,
+   "term": 1.54,
+   "cpi": 2.9
+  },
+  {
+   "month": "2019-08",
+   "current": 0.47,
+   "term": 1.48,
+   "cpi": 2.9
+  },
+  {
+   "month": "2019-09",
+   "current": 0.46,
+   "term": 1.46,
+   "cpi": 2.6
+  },
+  {
+   "month": "2019-10",
+   "current": 0.48,
+   "term": 1.44,
+   "cpi": 2.5
+  },
+  {
+   "month": "2019-11",
+   "current": 0.47,
+   "term": 1.44,
+   "cpi": 2.6
+  },
+  {
+   "month": "2019-12",
+   "current": 0.46,
+   "term": 1.42,
+   "cpi": 3.4
+  },
+  {
+   "month": "2020-01",
+   "current": 0.47,
+   "term": 1.42,
+   "cpi": 4.3
+  },
+  {
+   "month": "2020-02",
+   "current": 0.47,
+   "term": 1.39,
+   "cpi": 4.7
+  },
+  {
+   "month": "2020-03",
+   "current": 0.45,
+   "term": 1.36,
+   "cpi": 4.6
+  },
+  {
+   "month": "2020-04",
+   "current": 0.41,
+   "term": 1.29,
+   "cpi": 3.4
+  },
+  {
+   "month": "2020-05",
+   "current": 0.38,
+   "term": 1.19,
+   "cpi": 2.9
+  },
+  {
+   "month": "2020-06",
+   "current": 0.31,
+   "term": 1.04,
+   "cpi": 3.3
+  },
+  {
+   "month": "2020-07",
+   "current": 0.18,
+   "term": 0.86,
+   "cpi": 3.0
+  },
+  {
+   "month": "2020-08",
+   "current": 0.12,
+   "term": 0.74,
+   "cpi": 2.9
+  },
+  {
+   "month": "2020-09",
+   "current": 0.05,
+   "term": 0.66,
+   "cpi": 3.2
+  },
+  {
+   "month": "2020-10",
+   "current": 0.05,
+   "term": 0.62,
+   "cpi": 3.1
+  },
+  {
+   "month": "2020-11",
+   "current": 0.04,
+   "term": 0.58,
+   "cpi": 3.0
+  },
+  {
+   "month": "2020-12",
+   "current": 0.04,
+   "term": 0.54,
+   "cpi": 2.4
+  },
+  {
+   "month": "2021-01",
+   "current": 0.04,
+   "term": 0.51,
+   "cpi": 2.6
+  },
+  {
+   "month": "2021-02",
+   "current": 0.04,
+   "term": 0.47,
+   "cpi": 2.4
+  },
+  {
+   "month": "2021-03",
+   "current": 0.03,
+   "term": 0.37,
+   "cpi": 3.2
+  },
+  {
+   "month": "2021-04",
+   "current": 0.03,
+   "term": 0.34,
+   "cpi": 4.3
+  },
+  {
+   "month": "2021-05",
+   "current": 0.03,
+   "term": 0.32,
+   "cpi": 4.7
+  },
+  {
+   "month": "2021-06",
+   "current": 0.03,
+   "term": 0.31,
+   "cpi": 4.4
+  },
+  {
+   "month": "2021-07",
+   "current": 0.03,
+   "term": 0.31,
+   "cpi": 5.0
+  },
+  {
+   "month": "2021-08",
+   "current": 0.03,
+   "term": 0.3,
+   "cpi": 5.5
+  },
+  {
+   "month": "2021-09",
+   "current": 0.03,
+   "term": 0.3,
+   "cpi": 5.9
+  },
+  {
+   "month": "2021-10",
+   "current": 0.03,
+   "term": 0.31,
+   "cpi": 6.8
+  },
+  {
+   "month": "2021-11",
+   "current": 0.04,
+   "term": 0.33,
+   "cpi": 7.8
+  },
+  {
+   "month": "2021-12",
+   "current": 0.05,
+   "term": 0.38,
+   "cpi": 8.6
+  },
+  {
+   "month": "2022-01",
+   "current": 0.06,
+   "term": 0.58,
+   "cpi": 9.4
+  },
+  {
+   "month": "2022-02",
+   "current": 0.06,
+   "term": 0.73,
+   "cpi": 8.5
+  },
+  {
+   "month": "2022-03",
+   "current": 0.09,
+   "term": 0.89,
+   "cpi": 11.0
+  },
+  {
+   "month": "2022-04",
+   "current": 0.17,
+   "term": 1.19,
+   "cpi": 12.4
+  },
+  {
+   "month": "2022-05",
+   "current": 0.31,
+   "term": 1.61,
+   "cpi": 13.9
+  },
+  {
+   "month": "2022-06",
+   "current": 0.39,
+   "term": 2.44,
+   "cpi": 15.5
+  },
+  {
+   "month": "2022-07",
+   "current": 0.48,
+   "term": 3.26,
+   "cpi": 15.6
+  },
+  {
+   "month": "2022-08",
+   "current": 0.5,
+   "term": 3.93,
+   "cpi": 16.1
+  },
+  {
+   "month": "2022-09",
+   "current": 0.57,
+   "term": 4.25,
+   "cpi": 17.2
+  },
+  {
+   "month": "2022-10",
+   "current": 0.65,
+   "term": 4.45,
+   "cpi": 17.9
+  },
+  {
+   "month": "2022-11",
+   "current": 0.74,
+   "term": 4.92,
+   "cpi": 17.5
+  },
+  {
+   "month": "2022-12",
+   "current": 0.8,
+   "term": 5.19,
+   "cpi": 16.6
+  },
+  {
+   "month": "2023-01",
+   "current": 0.85,
+   "term": 5.27,
+   "cpi": 16.6
+  },
+  {
+   "month": "2023-02",
+   "current": 0.88,
+   "term": 5.4,
+   "cpi": 18.4
+  },
+  {
+   "month": "2023-03",
+   "current": 0.88,
+   "term": 5.42,
+   "cpi": 16.1
+  },
+  {
+   "month": "2023-04",
+   "current": 0.88,
+   "term": 5.33,
+   "cpi": 14.7
+  },
+  {
+   "month": "2023-05",
+   "current": 0.89,
+   "term": 5.51,
+   "cpi": 13.0
+  },
+  {
+   "month": "2023-06",
+   "current": 0.88,
+   "term": 5.44,
+   "cpi": 11.5
+  },
+  {
+   "month": "2023-07",
+   "current": 0.85,
+   "term": 5.51,
+   "cpi": 10.8
+  },
+  {
+   "month": "2023-08",
+   "current": 0.84,
+   "term": 5.44,
+   "cpi": 10.1
+  },
+  {
+   "month": "2023-09",
+   "current": 0.8,
+   "term": 5.32,
+   "cpi": 8.2
+  },
+  {
+   "month": "2023-10",
+   "current": 0.76,
+   "term": 5.09,
+   "cpi": 6.6
+  },
+  {
+   "month": "2023-11",
+   "current": 0.71,
+   "term": 4.99,
+   "cpi": 6.6
+  },
+  {
+   "month": "2023-12",
+   "current": 0.69,
+   "term": 4.81,
+   "cpi": 6.2
+  },
+  {
+   "month": "2024-01",
+   "current": 0.68,
+   "term": 4.71,
+   "cpi": 3.7
+  },
+  {
+   "month": "2024-02",
+   "current": 0.68,
+   "term": 4.55,
+   "cpi": 2.8
+  },
+  {
+   "month": "2024-03",
+   "current": 0.68,
+   "term": 4.39,
+   "cpi": 2.0
+  },
+  {
+   "month": "2024-04",
+   "current": 0.7,
+   "term": 4.21,
+   "cpi": 2.4
+  },
+  {
+   "month": "2024-05",
+   "current": 0.7,
+   "term": 4.16,
+   "cpi": 2.5
+  },
+  {
+   "month": "2024-06",
+   "current": 0.71,
+   "term": 4.18,
+   "cpi": 2.6
+  },
+  {
+   "month": "2024-07",
+   "current": 0.69,
+   "term": 4.09,
+   "cpi": 4.2
+  },
+  {
+   "month": "2024-08",
+   "current": 0.68,
+   "term": 3.89,
+   "cpi": 4.3
+  },
+  {
+   "month": "2024-09",
+   "current": 0.68,
+   "term": 3.85,
+   "cpi": 4.9
+  },
+  {
+   "month": "2024-10",
+   "current": 0.69,
+   "term": 3.82,
+   "cpi": 5.0
+  },
+  {
+   "month": "2024-11",
+   "current": 0.69,
+   "term": 3.84,
+   "cpi": 4.7
+  },
+  {
+   "month": "2024-12",
+   "current": 0.7,
+   "term": 3.83,
+   "cpi": 4.7
+  },
+  {
+   "month": "2025-01",
+   "current": 0.71,
+   "term": 3.8,
+   "cpi": 4.9
+  },
+  {
+   "month": "2025-02",
+   "current": 0.71,
+   "term": 3.76,
+   "cpi": 4.9
+  },
+  {
+   "month": "2025-03",
+   "current": 0.72,
+   "term": 3.81,
+   "cpi": 4.9
+  },
+  {
+   "month": "2025-04",
+   "current": 0.74,
+   "term": 3.86,
+   "cpi": 4.3
+  },
+  {
+   "month": "2025-05",
+   "current": 0.73,
+   "term": 3.8,
+   "cpi": 4.0
+  },
+  {
+   "month": "2025-06",
+   "current": 0.73,
+   "term": 3.7,
+   "cpi": 4.1
+  },
+  {
+   "month": "2025-07",
+   "current": 0.7,
+   "term": 3.71,
+   "cpi": 3.1
+  },
+  {
+   "month": "2025-08",
+   "current": 0.69,
+   "term": 3.65,
+   "cpi": 2.9
+  },
+  {
+   "month": "2025-09",
+   "current": 0.67,
+   "term": 3.62,
+   "cpi": 2.9
+  },
+  {
+   "month": "2025-10",
+   "current": 0.64,
+   "term": 3.55,
+   "cpi": 2.8
+  },
+  {
+   "month": "2025-11",
+   "current": 0.61,
+   "term": 3.43,
+   "cpi": 2.5
+  },
+  {
+   "month": "2025-12",
+   "current": 0.6,
+   "term": 3.4,
+   "cpi": 2.4
+  },
+  {
+   "month": "2026-01",
+   "current": 0.59,
+   "term": 3.29,
+   "cpi": 2.1
+  },
+  {
+   "month": "2026-02",
+   "current": 0.58,
+   "term": 3.22,
+   "cpi": 2.1
+  },
+  {
+   "month": "2026-03",
+   "current": 0.55,
+   "term": 3.11,
+   "cpi": 3.0
+  },
+  {
+   "month": "2026-04",
+   "current": 0.53,
+   "term": 2.98,
+   "cpi": 3.2
+  },
+  {
+   "month": "2026-05",
+   "current": 0.49,
+   "term": 2.89,
+   "cpi": 3.1
+  },
+  {
+   "month": "2026-06",
+   "current": 0.47,
+   "term": 2.86,
+   "cpi": 2.5
+  },
+  {
+   "month": "2026-07",
+   "current": 0.48,
+   "term": 2.81,
+   "cpi": 3.0
+  },
+  {
+   "month": "2026-08",
+   "current": 0.48,
+   "term": 2.79,
+   "cpi": 3.4
+  },
+  {
+   "month": "2026-09",
+   "current": 0.49,
+   "term": 2.79,
+   "cpi": 4.1
+  }
+ ],
+ "d1_history_stats": {
+  "start": "2005-01",
+  "end": "2026-09",
+  "months": 261,
+  "current_above_cpi_pct": 22.6,
+  "term_above_cpi_pct": 56.3,
+  "current_avg": 1.0,
+  "term_avg": 3.05,
+  "cpi_avg": 3.36,
+  "real_current_cum_pct": -42.4
+ },
+ "d2_split": {
+  "month": "2026-10",
+  "rows": [
+   {
+    "bucket": "equity",
+    "active_bn": 53.7,
+    "passive_bn": 6.0,
+    "passive_share_pct": 10.1
+   },
+   {
+    "bucket": "bond",
+    "active_bn": 86.0,
+    "passive_bn": 1.4,
+    "passive_share_pct": 1.6
+   },
+   {
+    "bucket": "short_bond",
+    "active_bn": 128.5,
+    "passive_bn": 0.7,
+    "passive_share_pct": 0.5
+   },
+   {
+    "bucket": "mixed",
+    "active_bn": 32.5,
+    "passive_bn": 0.0,
+    "passive_share_pct": 0.0
+   }
+  ]
+ },
+ "d2_by_bucket": [
+  {
+   "bucket": "bond",
+   "conservative": 0.31,
+   "base": 0.61,
+   "aggressive": 1.06
+  },
+  {
+   "bucket": "equity",
+   "conservative": 0.38,
+   "base": 0.77,
+   "aggressive": 1.13
+  },
+  {
+   "bucket": "mixed",
+   "conservative": 0.09,
+   "base": 0.33,
+   "aggressive": 0.52
+  },
+  {
+   "bucket": "short_bond",
+   "conservative": 0.24,
+   "base": 0.51,
+   "aggressive": 0.84
+  }
+ ],
+ "d2_assumptions": [
+  {
+   "bucket": "equity",
+   "scenario": "conservative",
+   "active_cost_pct": 1.61,
+   "alternative_cost_pct": 0.9,
+   "difference_pp": 0.71
+  },
+  {
+   "bucket": "equity",
+   "scenario": "base",
+   "active_cost_pct": 2.13,
+   "alternative_cost_pct": 0.7,
+   "difference_pp": 1.43
+  },
+  {
+   "bucket": "equity",
+   "scenario": "aggressive",
+   "active_cost_pct": 2.4,
+   "alternative_cost_pct": 0.3,
+   "difference_pp": 2.1
+  },
+  {
+   "bucket": "mixed",
+   "scenario": "conservative",
+   "active_cost_pct": 1.19,
+   "alternative_cost_pct": 0.9,
+   "difference_pp": 0.29
+  },
+  {
+   "bucket": "mixed",
+   "scenario": "base",
+   "active_cost_pct": 1.72,
+   "alternative_cost_pct": 0.7,
+   "difference_pp": 1.02
+  },
+  {
+   "bucket": "mixed",
+   "scenario": "aggressive",
+   "active_cost_pct": 2.0,
+   "alternative_cost_pct": 0.4,
+   "difference_pp": 1.6
+  },
+  {
+   "bucket": "bond",
+   "scenario": "conservative",
+   "active_cost_pct": 0.99,
+   "alternative_cost_pct": 0.63,
+   "difference_pp": 0.36
+  },
+  {
+   "bucket": "bond",
+   "scenario": "base",
+   "active_cost_pct": 1.21,
+   "alternative_cost_pct": 0.5,
+   "difference_pp": 0.71
+  },
+  {
+   "bucket": "bond",
+   "scenario": "aggressive",
+   "active_cost_pct": 1.53,
+   "alternative_cost_pct": 0.3,
+   "difference_pp": 1.23
+  },
+  {
+   "bucket": "short_bond",
+   "scenario": "conservative",
+   "active_cost_pct": 0.74,
+   "alternative_cost_pct": 0.55,
+   "difference_pp": 0.19
+  },
+  {
+   "bucket": "short_bond",
+   "scenario": "base",
+   "active_cost_pct": 0.88,
+   "alternative_cost_pct": 0.48,
+   "difference_pp": 0.4
+  },
+  {
+   "bucket": "short_bond",
+   "scenario": "aggressive",
+   "active_cost_pct": 0.95,
+   "alternative_cost_pct": 0.3,
+   "difference_pp": 0.65
+  }
+ ],
+ "d2_funds": [
+  {
+   "fund": "Erste Dłużny Krótkoterminowy",
+   "cost_pct": 0.48,
+   "basis": "KID: management and administrative 0.46 plus transaction 0.02",
+   "data_year": "2026"
+  },
+  {
+   "fund": "Erste Prestiż Krótkoterminowy Uniwersalny",
+   "cost_pct": 0.48,
+   "basis": "KID: management and administrative 0.47 plus transaction 0.01",
+   "data_year": "2026"
+  },
+  {
+   "fund": "PZU SEJF+",
+   "cost_pct": 0.54,
+   "basis": "PZU document: ongoing charges",
+   "data_year": "2021"
+  },
+  {
+   "fund": "ING Konserwatywny",
+   "cost_pct": 0.71,
+   "basis": "ING Bank document: ongoing fund costs",
+   "data_year": "undated"
+  },
+  {
+   "fund": "PKO Obligacji Skarbowych Krótkoterminowy",
+   "cost_pct": 0.75,
+   "basis": "KID ongoing charges",
+   "data_year": "2023"
+  },
+  {
+   "fund": "Pekao Spokojna Inwestycja",
+   "cost_pct": 0.8,
+   "basis": "estimate: management fee 0.70 plus about 0.10 administrative costs; excludes performance fee",
+   "data_year": "2026"
+  },
+  {
+   "fund": "Millennium Obligacji Klasyczny",
+   "cost_pct": 1.13,
+   "basis": "KID ongoing charges (class B representative of classes A and E)",
+   "data_year": "2026"
+  },
+  {
+   "fund": "Pekao Konserwatywny Plus",
+   "cost_pct": 1.14,
+   "basis": "Pekao TFI cost table (class A)",
+   "data_year": "2024"
+  },
+  {
+   "fund": "Pekao Konserwatywny",
+   "cost_pct": 1.21,
+   "basis": "estimate: management fee 0.88 plus about 0.10 administrative costs plus performance fee 0.23 (2025)",
+   "data_year": "2024-2025"
+  },
+  {
+   "fund": "ING Krótkoterminowy Obligacji",
+   "cost_pct": 1.21,
+   "basis": "ING Bank document: ongoing fund costs",
+   "data_year": "undated"
+  },
+  {
+   "fund": "ING Obligacji Plus",
+   "cost_pct": 1.21,
+   "basis": "ING Bank document: ongoing fund costs",
+   "data_year": "undated"
+  },
+  {
+   "fund": "PZU Obligacji Krótkoterminowych",
+   "cost_pct": 1.22,
+   "basis": "PZU document: ongoing charges (IKE class)",
+   "data_year": "older"
+  }
+ ],
+ "d2_compound": [
+  {
+   "year": 0,
+   "high": 100000,
+   "low": 100000
+  },
+  {
+   "year": 1,
+   "high": 104870,
+   "low": 106300
+  },
+  {
+   "year": 2,
+   "high": 109977,
+   "low": 112997
+  },
+  {
+   "year": 3,
+   "high": 115333,
+   "low": 120116
+  },
+  {
+   "year": 4,
+   "high": 120950,
+   "low": 127683
+  },
+  {
+   "year": 5,
+   "high": 126840,
+   "low": 135727
+  },
+  {
+   "year": 6,
+   "high": 133017,
+   "low": 144278
+  },
+  {
+   "year": 7,
+   "high": 139495,
+   "low": 153367
+  },
+  {
+   "year": 8,
+   "high": 146288,
+   "low": 163029
+  },
+  {
+   "year": 9,
+   "high": 153413,
+   "low": 173300
+  },
+  {
+   "year": 10,
+   "high": 160884,
+   "low": 184218
+  },
+  {
+   "year": 11,
+   "high": 168719,
+   "low": 195824
+  },
+  {
+   "year": 12,
+   "high": 176936,
+   "low": 208161
+  },
+  {
+   "year": 13,
+   "high": 185552,
+   "low": 221275
+  },
+  {
+   "year": 14,
+   "high": 194589,
+   "low": 235215
+  },
+  {
+   "year": 15,
+   "high": 204065,
+   "low": 250034
+  },
+  {
+   "year": 16,
+   "high": 214003,
+   "low": 265786
+  },
+  {
+   "year": 17,
+   "high": 224425,
+   "low": 282531
+  },
+  {
+   "year": 18,
+   "high": 235355,
+   "low": 300330
+  },
+  {
+   "year": 19,
+   "high": 246816,
+   "low": 319251
+  },
+  {
+   "year": 20,
+   "high": 258836,
+   "low": 339364
+  },
+  {
+   "year": 21,
+   "high": 271442,
+   "low": 360744
+  },
+  {
+   "year": 22,
+   "high": 284661,
+   "low": 383470
+  },
+  {
+   "year": 23,
+   "high": 298524,
+   "low": 407629
+  },
+  {
+   "year": 24,
+   "high": 313062,
+   "low": 433310
+  },
+  {
+   "year": 25,
+   "high": 328308,
+   "low": 460608
+  },
+  {
+   "year": 26,
+   "high": 344297,
+   "low": 489626
+  },
+  {
+   "year": 27,
+   "high": 361064,
+   "low": 520473
+  },
+  {
+   "year": 28,
+   "high": 378648,
+   "low": 553263
+  },
+  {
+   "year": 29,
+   "high": 397088,
+   "low": 588118
+  },
+  {
+   "year": 30,
+   "high": 416426,
+   "low": 625170
+  }
+ ],
+ "d2_assets_history": [
+  {
+   "month": "2018-08",
+   "absolute_return": 9.96,
+   "bond": 42.24,
+   "equity": 25.82,
+   "mixed": 25.01,
+   "short_bond": 55.69
+  },
+  {
+   "month": "2018-09",
+   "absolute_return": 8.06,
+   "bond": 41.81,
+   "equity": 24.96,
+   "mixed": 24.57,
+   "short_bond": 55.44
+  },
+  {
+   "month": "2018-10",
+   "absolute_return": 7.48,
+   "bond": 41.54,
+   "equity": 22.58,
+   "mixed": 23.04,
+   "short_bond": 56.52
+  },
+  {
+   "month": "2018-11",
+   "absolute_return": 7.18,
+   "bond": 40.83,
+   "equity": 22.49,
+   "mixed": 22.65,
+   "short_bond": 56.75
+  },
+  {
+   "month": "2018-12",
+   "absolute_return": 6.74,
+   "bond": 40.15,
+   "equity": 21.3,
+   "mixed": 22.35,
+   "short_bond": 56.68
+  },
+  {
+   "month": "2019-01",
+   "absolute_return": 7.36,
+   "bond": 46.04,
+   "equity": 22.32,
+   "mixed": 21.06,
+   "short_bond": 51.77
+  },
+  {
+   "month": "2019-02",
+   "absolute_return": 7.24,
+   "bond": 47.36,
+   "equity": 22.5,
+   "mixed": 20.92,
+   "short_bond": 51.05
+  },
+  {
+   "month": "2019-03",
+   "absolute_return": 7.01,
+   "bond": 48.39,
+   "equity": 22.33,
+   "mixed": 20.65,
+   "short_bond": 50.19
+  },
+  {
+   "month": "2019-04",
+   "absolute_return": 6.72,
+   "bond": 49.39,
+   "equity": 22.61,
+   "mixed": 20.63,
+   "short_bond": 49.49
+  },
+  {
+   "month": "2019-05",
+   "absolute_return": 6.53,
+   "bond": 50.39,
+   "equity": 21.21,
+   "mixed": 20.16,
+   "short_bond": 49.42
+  },
+  {
+   "month": "2019-06",
+   "absolute_return": 6.44,
+   "bond": 51.18,
+   "equity": 22.04,
+   "mixed": 20.48,
+   "short_bond": 49.14
+  },
+  {
+   "month": "2019-07",
+   "absolute_return": 6.33,
+   "bond": 52.93,
+   "equity": 21.77,
+   "mixed": 20.37,
+   "short_bond": 49.04
+  },
+  {
+   "month": "2019-08",
+   "absolute_return": 6.23,
+   "bond": 54.18,
+   "equity": 20.94,
+   "mixed": 19.95,
+   "short_bond": 49.12
+  },
+  {
+   "month": "2019-09",
+   "absolute_return": 5.96,
+   "bond": 54.69,
+   "equity": 20.73,
+   "mixed": 19.73,
+   "short_bond": 49.24
+  },
+  {
+   "month": "2019-10",
+   "absolute_return": 5.82,
+   "bond": 55.95,
+   "equity": 20.65,
+   "mixed": 19.67,
+   "short_bond": 49.75
+  },
+  {
+   "month": "2019-11",
+   "absolute_return": 5.81,
+   "bond": 56.63,
+   "equity": 20.71,
+   "mixed": 19.67,
+   "short_bond": 50.3
+  },
+  {
+   "month": "2019-12",
+   "absolute_return": 5.67,
+   "bond": 56.84,
+   "equity": 20.9,
+   "mixed": 19.75,
+   "short_bond": 50.8
+  },
+  {
+   "month": "2020-01",
+   "absolute_return": 5.67,
+   "bond": 57.0,
+   "equity": 20.75,
+   "mixed": 19.84,
+   "short_bond": 51.66
+  },
+  {
+   "month": "2020-02",
+   "absolute_return": 5.71,
+   "bond": 57.32,
+   "equity": 18.44,
+   "mixed": 19.08,
+   "short_bond": 52.6
+  },
+  {
+   "month": "2020-03",
+   "absolute_return": 5.06,
+   "bond": 46.66,
+   "equity": 14.78,
+   "mixed": 16.78,
+   "short_bond": 43.04
+  },
+  {
+   "month": "2020-04",
+   "absolute_return": 5.11,
+   "bond": 46.05,
+   "equity": 17.07,
+   "mixed": 17.76,
+   "short_bond": 40.84
+  },
+  {
+   "month": "2020-05",
+   "absolute_return": 5.08,
+   "bond": 46.64,
+   "equity": 18.38,
+   "mixed": 18.35,
+   "short_bond": 41.37
+  },
+  {
+   "month": "2020-06",
+   "absolute_return": 5.19,
+   "bond": 47.63,
+   "equity": 19.33,
+   "mixed": 18.65,
+   "short_bond": 42.28
+  },
+  {
+   "month": "2020-07",
+   "absolute_return": 5.27,
+   "bond": 49.68,
+   "equity": 20.2,
+   "mixed": 19.25,
+   "short_bond": 43.73
+  },
+  {
+   "month": "2020-08",
+   "absolute_return": 5.25,
+   "bond": 51.29,
+   "equity": 20.86,
+   "mixed": 19.65,
+   "short_bond": 44.69
+  },
+  {
+   "month": "2020-09",
+   "absolute_return": 5.14,
+   "bond": 52.53,
+   "equity": 20.18,
+   "mixed": 19.54,
+   "short_bond": 45.96
+  },
+  {
+   "month": "2020-10",
+   "absolute_return": 5.16,
+   "bond": 54.86,
+   "equity": 18.61,
+   "mixed": 19.01,
+   "short_bond": 46.62
+  },
+  {
+   "month": "2020-11",
+   "absolute_return": 5.28,
+   "bond": 56.47,
+   "equity": 21.32,
+   "mixed": 20.15,
+   "short_bond": 47.28
+  },
+  {
+   "month": "2020-12",
+   "absolute_return": 5.36,
+   "bond": 57.73,
+   "equity": 22.88,
+   "mixed": 20.96,
+   "short_bond": 48.77
+  },
+  {
+   "month": "2021-01",
+   "absolute_return": 5.65,
+   "bond": 60.33,
+   "equity": 23.69,
+   "mixed": 21.57,
+   "short_bond": 49.93
+  },
+  {
+   "month": "2021-02",
+   "absolute_return": 5.83,
+   "bond": 61.49,
+   "equity": 24.7,
+   "mixed": 21.85,
+   "short_bond": 51.23
+  },
+  {
+   "month": "2021-03",
+   "absolute_return": 6.05,
+   "bond": 61.48,
+   "equity": 25.55,
+   "mixed": 22.3,
+   "short_bond": 53.0
+  },
+  {
+   "month": "2021-04",
+   "absolute_return": 6.16,
+   "bond": 60.64,
+   "equity": 27.25,
+   "mixed": 23.01,
+   "short_bond": 54.04
+  },
+  {
+   "month": "2021-05",
+   "absolute_return": 6.24,
+   "bond": 59.24,
+   "equity": 28.98,
+   "mixed": 23.82,
+   "short_bond": 54.23
+  },
+  {
+   "month": "2021-06",
+   "absolute_return": 6.45,
+   "bond": 58.72,
+   "equity": 30.38,
+   "mixed": 24.53,
+   "short_bond": 53.83
+  },
+  {
+   "month": "2021-07",
+   "absolute_return": 6.43,
+   "bond": 58.23,
+   "equity": 31.3,
+   "mixed": 25.33,
+   "short_bond": 53.49
+  },
+  {
+   "month": "2021-08",
+   "absolute_return": 6.47,
+   "bond": 58.19,
+   "equity": 32.67,
+   "mixed": 26.2,
+   "short_bond": 53.1
+  },
+  {
+   "month": "2021-09",
+   "absolute_return": 6.38,
+   "bond": 57.32,
+   "equity": 32.24,
+   "mixed": 26.43,
+   "short_bond": 52.4
+  },
+  {
+   "month": "2021-10",
+   "absolute_return": 6.37,
+   "bond": 53.85,
+   "equity": 34.33,
+   "mixed": 27.09,
+   "short_bond": 50.31
+  },
+  {
+   "month": "2021-11",
+   "absolute_return": 6.38,
+   "bond": 50.86,
+   "equity": 33.85,
+   "mixed": 26.13,
+   "short_bond": 46.69
+  },
+  {
+   "month": "2021-12",
+   "absolute_return": 6.33,
+   "bond": 49.73,
+   "equity": 34.61,
+   "mixed": 25.9,
+   "short_bond": 45.8
+  },
+  {
+   "month": "2022-01",
+   "absolute_return": 6.04,
+   "bond": 48.73,
+   "equity": 32.28,
+   "mixed": 24.88,
+   "short_bond": 45.51
+  },
+  {
+   "month": "2022-02",
+   "absolute_return": 5.79,
+   "bond": 47.35,
+   "equity": 29.44,
+   "mixed": 23.09,
+   "short_bond": 44.55
+  },
+  {
+   "month": "2022-03",
+   "absolute_return": 5.6,
+   "bond": 43.0,
+   "equity": 30.14,
+   "mixed": 22.06,
+   "short_bond": 39.39
+  },
+  {
+   "month": "2022-04",
+   "absolute_return": 5.36,
+   "bond": 41.06,
+   "equity": 27.82,
+   "mixed": 20.51,
+   "short_bond": 37.77
+  },
+  {
+   "month": "2022-05",
+   "absolute_return": 5.2,
+   "bond": 40.13,
+   "equity": 27.1,
+   "mixed": 19.92,
+   "short_bond": 37.54
+  },
+  {
+   "month": "2022-06",
+   "absolute_return": 4.9,
+   "bond": 38.51,
+   "equity": 25.01,
+   "mixed": 18.91,
+   "short_bond": 36.85
+  },
+  {
+   "month": "2022-07",
+   "absolute_return": 4.84,
+   "bond": 39.36,
+   "equity": 25.92,
+   "mixed": 19.47,
+   "short_bond": 36.78
+  },
+  {
+   "month": "2022-08",
+   "absolute_return": 4.78,
+   "bond": 39.03,
+   "equity": 24.69,
+   "mixed": 18.7,
+   "short_bond": 36.65
+  },
+  {
+   "month": "2022-09",
+   "absolute_return": 4.65,
+   "bond": 37.96,
+   "equity": 22.64,
+   "mixed": 17.72,
+   "short_bond": 36.33
+  },
+  {
+   "month": "2022-10",
+   "absolute_return": 4.68,
+   "bond": 36.46,
+   "equity": 23.84,
+   "mixed": 17.61,
+   "short_bond": 34.92
+  },
+  {
+   "month": "2022-11",
+   "absolute_return": 4.76,
+   "bond": 37.74,
+   "equity": 25.51,
+   "mixed": 18.73,
+   "short_bond": 34.75
+  },
+  {
+   "month": "2022-12",
+   "absolute_return": 4.8,
+   "bond": 37.33,
+   "equity": 25.22,
+   "mixed": 18.82,
+   "short_bond": 35.75
+  },
+  {
+   "month": "2023-01",
+   "absolute_return": 4.88,
+   "bond": 38.67,
+   "equity": 26.95,
+   "mixed": 19.68,
+   "short_bond": 36.73
+  },
+  {
+   "month": "2023-02",
+   "absolute_return": 4.9,
+   "bond": 38.56,
+   "equity": 26.72,
+   "mixed": 19.44,
+   "short_bond": 37.53
+  },
+  {
+   "month": "2023-03",
+   "absolute_return": 4.96,
+   "bond": 39.05,
+   "equity": 27.02,
+   "mixed": 19.56,
+   "short_bond": 38.72
+  },
+  {
+   "month": "2023-04",
+   "absolute_return": 4.94,
+   "bond": 39.67,
+   "equity": 27.67,
+   "mixed": 19.93,
+   "short_bond": 40.04
+  },
+  {
+   "month": "2023-05",
+   "absolute_return": 5.01,
+   "bond": 40.39,
+   "equity": 27.89,
+   "mixed": 19.85,
+   "short_bond": 41.95
+  },
+  {
+   "month": "2023-06",
+   "absolute_return": 5.11,
+   "bond": 41.63,
+   "equity": 29.31,
+   "mixed": 20.5,
+   "short_bond": 42.97
+  },
+  {
+   "month": "2023-07",
+   "absolute_return": 5.16,
+   "bond": 43.66,
+   "equity": 30.67,
+   "mixed": 21.13,
+   "short_bond": 44.11
+  },
+  {
+   "month": "2023-08",
+   "absolute_return": 4.99,
+   "bond": 44.73,
+   "equity": 29.57,
+   "mixed": 20.73,
+   "short_bond": 45.61
+  },
+  {
+   "month": "2023-09",
+   "absolute_return": 5.17,
+   "bond": 45.48,
+   "equity": 28.21,
+   "mixed": 19.58,
+   "short_bond": 46.9
+  },
+  {
+   "month": "2023-10",
+   "absolute_return": 5.15,
+   "bond": 46.16,
+   "equity": 28.82,
+   "mixed": 19.87,
+   "short_bond": 48.44
+  },
+  {
+   "month": "2023-11",
+   "absolute_return": 5.19,
+   "bond": 47.21,
+   "equity": 30.69,
+   "mixed": 20.33,
+   "short_bond": 50.58
+  },
+  {
+   "month": "2023-12",
+   "absolute_return": 5.4,
+   "bond": 48.1,
+   "equity": 32.01,
+   "mixed": 20.17,
+   "short_bond": 53.16
+  },
+  {
+   "month": "2024-01",
+   "absolute_return": 5.5,
+   "bond": 49.56,
+   "equity": 31.55,
+   "mixed": 20.26,
+   "short_bond": 56.76
+  },
+  {
+   "month": "2024-02",
+   "absolute_return": 5.71,
+   "bond": 50.67,
+   "equity": 33.33,
+   "mixed": 20.72,
+   "short_bond": 59.74
+  },
+  {
+   "month": "2024-03",
+   "absolute_return": 5.96,
+   "bond": 51.67,
+   "equity": 34.1,
+   "mixed": 20.99,
+   "short_bond": 62.1
+  },
+  {
+   "month": "2024-04",
+   "absolute_return": 5.57,
+   "bond": 52.06,
+   "equity": 33.94,
+   "mixed": 21.52,
+   "short_bond": 64.34
+  },
+  {
+   "month": "2024-05",
+   "absolute_return": 5.78,
+   "bond": 52.67,
+   "equity": 35.01,
+   "mixed": 22.14,
+   "short_bond": 66.49
+  },
+  {
+   "month": "2024-06",
+   "absolute_return": 5.97,
+   "bond": 53.38,
+   "equity": 35.91,
+   "mixed": 22.38,
+   "short_bond": 68.81
+  },
+  {
+   "month": "2024-07",
+   "absolute_return": 5.96,
+   "bond": 55.65,
+   "equity": 34.75,
+   "mixed": 22.39,
+   "short_bond": 71.5
+  },
+  {
+   "month": "2024-08",
+   "absolute_return": 6.0,
+   "bond": 57.61,
+   "equity": 34.71,
+   "mixed": 22.45,
+   "short_bond": 73.95
+  },
+  {
+   "month": "2024-09",
+   "absolute_return": 5.98,
+   "bond": 59.78,
+   "equity": 34.35,
+   "mixed": 22.45,
+   "short_bond": 76.23
+  },
+  {
+   "month": "2024-10",
+   "absolute_return": 5.99,
+   "bond": 60.86,
+   "equity": 33.44,
+   "mixed": 21.96,
+   "short_bond": 78.49
+  },
+  {
+   "month": "2024-11",
+   "absolute_return": 6.02,
+   "bond": 62.79,
+   "equity": 34.48,
+   "mixed": 22.35,
+   "short_bond": 80.08
+  },
+  {
+   "month": "2024-12",
+   "absolute_return": 6.01,
+   "bond": 63.45,
+   "equity": 34.44,
+   "mixed": 22.29,
+   "short_bond": 82.07
+  },
+  {
+   "month": "2025-01",
+   "absolute_return": 6.15,
+   "bond": 64.78,
+   "equity": 36.47,
+   "mixed": 22.32,
+   "short_bond": 84.93
+  },
+  {
+   "month": "2025-02",
+   "absolute_return": 6.19,
+   "bond": 64.54,
+   "equity": 36.36,
+   "mixed": 23.38,
+   "short_bond": 89.74
+  },
+  {
+   "month": "2025-03",
+   "absolute_return": 6.12,
+   "bond": 65.79,
+   "equity": 35.91,
+   "mixed": 23.54,
+   "short_bond": 92.1
+  },
+  {
+   "month": "2025-04",
+   "absolute_return": 6.17,
+   "bond": 67.2,
+   "equity": 36.6,
+   "mixed": 24.02,
+   "short_bond": 94.46
+  },
+  {
+   "month": "2025-05",
+   "absolute_return": 6.25,
+   "bond": 68.78,
+   "equity": 38.06,
+   "mixed": 24.43,
+   "short_bond": 97.11
+  },
+  {
+   "month": "2025-06",
+   "absolute_return": 6.22,
+   "bond": 70.1,
+   "equity": 38.59,
+   "mixed": 24.83,
+   "short_bond": 99.82
+  },
+  {
+   "month": "2025-07",
+   "absolute_return": 6.18,
+   "bond": 73.17,
+   "equity": 39.11,
+   "mixed": 25.38,
+   "short_bond": 103.92
+  },
+  {
+   "month": "2025-08",
+   "absolute_return": 6.2,
+   "bond": 75.29,
+   "equity": 38.87,
+   "mixed": 25.43,
+   "short_bond": 106.95
+  },
+  {
+   "month": "2025-09",
+   "absolute_return": 6.36,
+   "bond": 76.84,
+   "equity": 39.66,
+   "mixed": 25.7,
+   "short_bond": 109.96
+  },
+  {
+   "month": "2025-10",
+   "absolute_return": 6.49,
+   "bond": 79.28,
+   "equity": 41.8,
+   "mixed": 26.41,
+   "short_bond": 113.63
+  },
+  {
+   "month": "2025-11",
+   "absolute_return": 6.53,
+   "bond": 81.28,
+   "equity": 41.92,
+   "mixed": 26.84,
+   "short_bond": 116.41
+  },
+  {
+   "month": "2025-12",
+   "absolute_return": 6.64,
+   "bond": 82.85,
+   "equity": 43.3,
+   "mixed": 27.65,
+   "short_bond": 119.03
+  },
+  {
+   "month": "2026-01",
+   "absolute_return": 7.02,
+   "bond": 86.12,
+   "equity": 47.23,
+   "mixed": 28.94,
+   "short_bond": 123.54
+  },
+  {
+   "month": "2026-02",
+   "absolute_return": 7.29,
+   "bond": 89.94,
+   "equity": 48.33,
+   "mixed": 29.77,
+   "short_bond": 127.96
+  },
+  {
+   "month": "2026-03",
+   "absolute_return": 7.12,
+   "bond": 85.27,
+   "equity": 45.09,
+   "mixed": 28.31,
+   "short_bond": 122.53
+  },
+  {
+   "month": "2026-04",
+   "absolute_return": 6.78,
+   "bond": 85.48,
+   "equity": 49.79,
+   "mixed": 28.38,
+   "short_bond": 124.02
+  },
+  {
+   "month": "2026-05",
+   "absolute_return": 7.01,
+   "bond": 86.72,
+   "equity": 53.62,
+   "mixed": 29.72,
+   "short_bond": 124.91
+  },
+  {
+   "month": "2026-06",
+   "absolute_return": 7.2,
+   "bond": 88.43,
+   "equity": 54.01,
+   "mixed": 30.4,
+   "short_bond": 128.32
+  },
+  {
+   "month": "2026-07",
+   "absolute_return": 7.38,
+   "bond": 88.81,
+   "equity": 56.14,
+   "mixed": 31.05,
+   "short_bond": 129.94
+  },
+  {
+   "month": "2026-08",
+   "absolute_return": 7.7,
+   "bond": 89.14,
+   "equity": 59.04,
+   "mixed": 31.84,
+   "short_bond": 130.76
+  },
+  {
+   "month": "2026-09",
+   "absolute_return": 7.68,
+   "bond": 87.45,
+   "equity": 59.99,
+   "mixed": 32.13,
+   "short_bond": 129.42
+  },
+  {
+   "month": "2026-10",
+   "absolute_return": 7.67,
+   "bond": 87.38,
+   "equity": 59.77,
+   "mixed": 32.54,
+   "short_bond": 129.2
+  }
+ ],
+ "d3_belka": [
+  {
+   "year": "2024",
+   "savings": 7.3,
+   "investments": 3.2
+  },
+  {
+   "year": "2025",
+   "savings": 5.7,
+   "investments": 3.6
+  },
+  {
+   "year": "2026F",
+   "savings": 5.1,
+   "investments": 3.9
+  }
+ ],
+ "d3_table": [
+  {
+   "scenario": "conservative",
+   "share_savings": 0.15,
+   "share_investments": 0.25,
+   "savings_bn": 0.76,
+   "investments_bn": 0.98,
+   "total_bn": 1.74
+  },
+  {
+   "scenario": "base",
+   "share_savings": 0.25,
+   "share_investments": 0.4,
+   "savings_bn": 1.27,
+   "investments_bn": 1.56,
+   "total_bn": 2.84
+  },
+  {
+   "scenario": "aggressive",
+   "share_savings": 0.4,
+   "share_investments": 0.6,
+   "savings_bn": 2.04,
+   "investments_bn": 2.34,
+   "total_bn": 4.38
+  }
+ ],
+ "d4_table": [
+  {
+   "scenario": "conservative",
+   "gross_pay": 6000.0,
+   "employer_net_year": 950.0,
+   "loss_per_person_year": 665.0,
+   "opted_out_mn": 2.5,
+   "loss_bn": 1.66
+  },
+  {
+   "scenario": "base",
+   "gross_pay": 7400.0,
+   "employer_net_year": 1172.0,
+   "loss_per_person_year": 1116.0,
+   "opted_out_mn": 2.8,
+   "loss_bn": 3.13
+  },
+  {
+   "scenario": "aggressive",
+   "gross_pay": 9266.0,
+   "employer_net_year": 1468.0,
+   "loss_per_person_year": 1708.0,
+   "opted_out_mn": 3.2,
+   "loss_bn": 5.46
+  }
+ ],
+ "d5_table": [
+  {
+   "category": "equity",
+   "period": "2018-09 to 2026-10",
+   "twr_pct": 9.08,
+   "irr_pct": 8.89,
+   "gap_pp": 0.19,
+   "gap_5y_min_pp": 0.28,
+   "gap_5y_median_pp": 0.65,
+   "gap_5y_max_pp": 1.87,
+   "gap_pln_bn": 0.73,
+   "avg_aum_pln_bn": 30.8,
+   "net_flows_pln_bn": 7.1
+  },
+  {
+   "category": "mixed",
+   "period": "2018-09 to 2026-10",
+   "twr_pct": 4.54,
+   "irr_pct": 4.03,
+   "gap_pp": 0.51,
+   "gap_5y_min_pp": 0.57,
+   "gap_5y_median_pp": 0.65,
+   "gap_5y_max_pp": 0.85,
+   "gap_pln_bn": 1.17,
+   "avg_aum_pln_bn": 22.5,
+   "net_flows_pln_bn": 2.0
+  },
+  {
+   "category": "bond",
+   "period": "2018-09 to 2026-10",
+   "twr_pct": 3.19,
+   "irr_pct": 2.98,
+   "gap_pp": 0.21,
+   "gap_5y_min_pp": -0.02,
+   "gap_5y_median_pp": 0.33,
+   "gap_5y_max_pp": 0.41,
+   "gap_pln_bn": 1.09,
+   "avg_aum_pln_bn": 56.3,
+   "net_flows_pln_bn": 29.6
+  },
+  {
+   "category": "short_bond",
+   "period": "2018-09 to 2026-10",
+   "twr_pct": 3.19,
+   "irr_pct": 3.29,
+   "gap_pp": -0.1,
+   "gap_5y_min_pp": -0.26,
+   "gap_5y_median_pp": 0.08,
+   "gap_5y_max_pp": 0.39,
+   "gap_pln_bn": -0.59,
+   "avg_aum_pln_bn": 64.4,
+   "net_flows_pln_bn": 56.2
+  },
+  {
+   "category": "absolute_return",
+   "period": "2018-09 to 2026-10",
+   "twr_pct": 1.01,
+   "irr_pct": 0.4,
+   "gap_pp": 0.6,
+   "gap_5y_min_pp": 0.27,
+   "gap_5y_median_pp": 0.35,
+   "gap_5y_max_pp": 0.77,
+   "gap_pln_bn": 0.35,
+   "avg_aum_pln_bn": 6.0,
+   "net_flows_pln_bn": -2.5
+  },
+  {
+   "category": "total",
+   "period": "2018-09 to 2026-10",
+   "twr_pct": 4.14,
+   "irr_pct": 4.23,
+   "gap_pp": -0.09,
+   "gap_5y_min_pp": -0.26,
+   "gap_5y_median_pp": 0.21,
+   "gap_5y_max_pp": 0.36,
+   "gap_pln_bn": -1.59,
+   "avg_aum_pln_bn": 180.0,
+   "net_flows_pln_bn": 92.4
+  }
+ ],
+ "d5_equity_flows": [
+  {
+   "month": "2018-09",
+   "flow_bn": -0.392,
+   "r_pct": -1.83
+  },
+  {
+   "month": "2018-10",
+   "flow_bn": -0.673,
+   "r_pct": -6.92
+  },
+  {
+   "month": "2018-11",
+   "flow_bn": -0.369,
+   "r_pct": 1.25
+  },
+  {
+   "month": "2018-12",
+   "flow_bn": -0.387,
+   "r_pct": -3.62
+  },
+  {
+   "month": "2019-01",
+   "flow_bn": 0.032,
+   "r_pct": 4.87
+  },
+  {
+   "month": "2019-02",
+   "flow_bn": -0.047,
+   "r_pct": 0.99
+  },
+  {
+   "month": "2019-03",
+   "flow_bn": -0.302,
+   "r_pct": 0.61
+  },
+  {
+   "month": "2019-04",
+   "flow_bn": 0.039,
+   "r_pct": 1.06
+  },
+  {
+   "month": "2019-05",
+   "flow_bn": -0.384,
+   "r_pct": -4.53
+  },
+  {
+   "month": "2019-06",
+   "flow_bn": -0.016,
+   "r_pct": 3.99
+  },
+  {
+   "month": "2019-07",
+   "flow_bn": -0.351,
+   "r_pct": 0.38
+  },
+  {
+   "month": "2019-08",
+   "flow_bn": -0.172,
+   "r_pct": -3.02
+  },
+  {
+   "month": "2019-09",
+   "flow_bn": -0.275,
+   "r_pct": 0.27
+  },
+  {
+   "month": "2019-10",
+   "flow_bn": -0.225,
+   "r_pct": 0.65
+  },
+  {
+   "month": "2019-11",
+   "flow_bn": -0.367,
+   "r_pct": 1.66
+  },
+  {
+   "month": "2019-12",
+   "flow_bn": -0.031,
+   "r_pct": 1.09
+  },
+  {
+   "month": "2020-01",
+   "flow_bn": -0.163,
+   "r_pct": 0.04
+  },
+  {
+   "month": "2020-02",
+   "flow_bn": -0.458,
+   "r_pct": -9.01
+  },
+  {
+   "month": "2020-03",
+   "flow_bn": -1.104,
+   "r_pct": -14.28
+  },
+  {
+   "month": "2020-04",
+   "flow_bn": 0.614,
+   "r_pct": 11.09
+  },
+  {
+   "month": "2020-05",
+   "flow_bn": 0.448,
+   "r_pct": 4.77
+  },
+  {
+   "month": "2020-06",
+   "flow_bn": 0.347,
+   "r_pct": 3.24
+  },
+  {
+   "month": "2020-07",
+   "flow_bn": 0.261,
+   "r_pct": 3.14
+  },
+  {
+   "month": "2020-08",
+   "flow_bn": -0.035,
+   "r_pct": 3.43
+  },
+  {
+   "month": "2020-09",
+   "flow_bn": -0.125,
+   "r_pct": -2.68
+  },
+  {
+   "month": "2020-10",
+   "flow_bn": -0.498,
+   "r_pct": -5.33
+  },
+  {
+   "month": "2020-11",
+   "flow_bn": 0.284,
+   "r_pct": 12.74
+  },
+  {
+   "month": "2020-12",
+   "flow_bn": 0.256,
+   "r_pct": 6.09
+  },
+  {
+   "month": "2021-01",
+   "flow_bn": 0.582,
+   "r_pct": 0.97
+  },
+  {
+   "month": "2021-02",
+   "flow_bn": 0.809,
+   "r_pct": 0.83
+  },
+  {
+   "month": "2021-03",
+   "flow_bn": 0.534,
+   "r_pct": 1.28
+  },
+  {
+   "month": "2021-04",
+   "flow_bn": 0.942,
+   "r_pct": 3.27
+  },
+  {
+   "month": "2021-05",
+   "flow_bn": 0.77,
+   "r_pct": 3.5
+  },
+  {
+   "month": "2021-06",
+   "flow_bn": 0.91,
+   "r_pct": 1.67
+  },
+  {
+   "month": "2021-07",
+   "flow_bn": 0.45,
+   "r_pct": 1.52
+  },
+  {
+   "month": "2021-08",
+   "flow_bn": 0.511,
+   "r_pct": 2.7
+  },
+  {
+   "month": "2021-09",
+   "flow_bn": 0.313,
+   "r_pct": -2.28
+  },
+  {
+   "month": "2021-10",
+   "flow_bn": 0.641,
+   "r_pct": 4.43
+  },
+  {
+   "month": "2021-11",
+   "flow_bn": 0.94,
+   "r_pct": -4.06
+  },
+  {
+   "month": "2021-12",
+   "flow_bn": 0.337,
+   "r_pct": 1.46
+  },
+  {
+   "month": "2022-01",
+   "flow_bn": -0.344,
+   "r_pct": -5.77
+  },
+  {
+   "month": "2022-02",
+   "flow_bn": -0.94,
+   "r_pct": -5.98
+  },
+  {
+   "month": "2022-03",
+   "flow_bn": -0.093,
+   "r_pct": 2.68
+  },
+  {
+   "month": "2022-04",
+   "flow_bn": 0.188,
+   "r_pct": -8.28
+  },
+  {
+   "month": "2022-05",
+   "flow_bn": -0.289,
+   "r_pct": -1.54
+  },
+  {
+   "month": "2022-06",
+   "flow_bn": -0.265,
+   "r_pct": -6.79
+  },
+  {
+   "month": "2022-07",
+   "flow_bn": -0.387,
+   "r_pct": 5.25
+  },
+  {
+   "month": "2022-08",
+   "flow_bn": -0.075,
+   "r_pct": -4.48
+  },
+  {
+   "month": "2022-09",
+   "flow_bn": -0.206,
+   "r_pct": -7.43
+  },
+  {
+   "month": "2022-10",
+   "flow_bn": -0.113,
+   "r_pct": 5.84
+  },
+  {
+   "month": "2022-11",
+   "flow_bn": 0.044,
+   "r_pct": 6.79
+  },
+  {
+   "month": "2022-12",
+   "flow_bn": 0.037,
+   "r_pct": -1.28
+  },
+  {
+   "month": "2023-01",
+   "flow_bn": 0.03,
+   "r_pct": 6.75
+  },
+  {
+   "month": "2023-02",
+   "flow_bn": 0.01,
+   "r_pct": -0.89
+  },
+  {
+   "month": "2023-03",
+   "flow_bn": -0.043,
+   "r_pct": 0.89
+  },
+  {
+   "month": "2023-04",
+   "flow_bn": -0.097,
+   "r_pct": 2.67
+  },
+  {
+   "month": "2023-05",
+   "flow_bn": -0.074,
+   "r_pct": 0.78
+  },
+  {
+   "month": "2023-06",
+   "flow_bn": -0.137,
+   "r_pct": 5.59
+  },
+  {
+   "month": "2023-07",
+   "flow_bn": -0.024,
+   "r_pct": 4.73
+  },
+  {
+   "month": "2023-08",
+   "flow_bn": -0.126,
+   "r_pct": -3.63
+  },
+  {
+   "month": "2023-09",
+   "flow_bn": -0.329,
+   "r_pct": -3.51
+  },
+  {
+   "month": "2023-10",
+   "flow_bn": 0.218,
+   "r_pct": 1.4
+  },
+  {
+   "month": "2023-11",
+   "flow_bn": 0.069,
+   "r_pct": 6.06
+  },
+  {
+   "month": "2023-12",
+   "flow_bn": -0.205,
+   "r_pct": 4.99
+  },
+  {
+   "month": "2024-01",
+   "flow_bn": -0.495,
+   "r_pct": 0.1
+  },
+  {
+   "month": "2024-02",
+   "flow_bn": 0.105,
+   "r_pct": 5.3
+  },
+  {
+   "month": "2024-03",
+   "flow_bn": 0.112,
+   "r_pct": 1.96
+  },
+  {
+   "month": "2024-04",
+   "flow_bn": -0.039,
+   "r_pct": -0.41
+  },
+  {
+   "month": "2024-05",
+   "flow_bn": 0.237,
+   "r_pct": 2.53
+  },
+  {
+   "month": "2024-06",
+   "flow_bn": -0.004,
+   "r_pct": 2.29
+  },
+  {
+   "month": "2024-07",
+   "flow_bn": -0.121,
+   "r_pct": -2.82
+  },
+  {
+   "month": "2024-08",
+   "flow_bn": -0.341,
+   "r_pct": 0.87
+  },
+  {
+   "month": "2024-09",
+   "flow_bn": -0.2,
+   "r_pct": -0.48
+  },
+  {
+   "month": "2024-10",
+   "flow_bn": 0.088,
+   "r_pct": -2.91
+  },
+  {
+   "month": "2024-11",
+   "flow_bn": 0.25,
+   "r_pct": 2.36
+  },
+  {
+   "month": "2024-12",
+   "flow_bn": 0.06,
+   "r_pct": -0.21
+  },
+  {
+   "month": "2025-01",
+   "flow_bn": 0.215,
+   "r_pct": 5.27
+  },
+  {
+   "month": "2025-02",
+   "flow_bn": -0.158,
+   "r_pct": 1.25
+  },
+  {
+   "month": "2025-03",
+   "flow_bn": -0.074,
+   "r_pct": -1.03
+  },
+  {
+   "month": "2025-04",
+   "flow_bn": 0.026,
+   "r_pct": 1.83
+  },
+  {
+   "month": "2025-05",
+   "flow_bn": -0.184,
+   "r_pct": 4.51
+  },
+  {
+   "month": "2025-06",
+   "flow_bn": -0.272,
+   "r_pct": 2.74
+  },
+  {
+   "month": "2025-07",
+   "flow_bn": -0.234,
+   "r_pct": 1.97
+  },
+  {
+   "month": "2025-08",
+   "flow_bn": 0.041,
+   "r_pct": -0.71
+  },
+  {
+   "month": "2025-09",
+   "flow_bn": -0.051,
+   "r_pct": 2.16
+  },
+  {
+   "month": "2025-10",
+   "flow_bn": 0.692,
+   "r_pct": 3.3
+  },
+  {
+   "month": "2025-11",
+   "flow_bn": 0.329,
+   "r_pct": -0.49
+  },
+  {
+   "month": "2025-12",
+   "flow_bn": 0.404,
+   "r_pct": 2.39
+  },
+  {
+   "month": "2026-01",
+   "flow_bn": 1.082,
+   "r_pct": 4.23
+  },
+  {
+   "month": "2026-02",
+   "flow_bn": 0.634,
+   "r_pct": 1.02
+  },
+  {
+   "month": "2026-03",
+   "flow_bn": -0.499,
+   "r_pct": -5.7
+  },
+  {
+   "month": "2026-04",
+   "flow_bn": 0.7,
+   "r_pct": 7.47
+  },
+  {
+   "month": "2026-05",
+   "flow_bn": 0.645,
+   "r_pct": 6.65
+  },
+  {
+   "month": "2026-06",
+   "flow_bn": 0.711,
+   "r_pct": -0.58
+  },
+  {
+   "month": "2026-07",
+   "flow_bn": 0.847,
+   "r_pct": 2.22
+  },
+  {
+   "month": "2026-08",
+   "flow_bn": 0.657,
+   "r_pct": 3.97
+  },
+  {
+   "month": "2026-09",
+   "flow_bn": 0.468,
+   "r_pct": 0.82
+  },
+  {
+   "month": "2026-10",
+   "flow_bn": 0.971,
+   "r_pct": -1.97
+  }
+ ],
+ "d5_index": {
+  "months": [
+   "2018-09",
+   "2018-10",
+   "2018-11",
+   "2018-12",
+   "2019-01",
+   "2019-02",
+   "2019-03",
+   "2019-04",
+   "2019-05",
+   "2019-06",
+   "2019-07",
+   "2019-08",
+   "2019-09",
+   "2019-10",
+   "2019-11",
+   "2019-12",
+   "2020-01",
+   "2020-02",
+   "2020-03",
+   "2020-04",
+   "2020-05",
+   "2020-06",
+   "2020-07",
+   "2020-08",
+   "2020-09",
+   "2020-10",
+   "2020-11",
+   "2020-12",
+   "2021-01",
+   "2021-02",
+   "2021-03",
+   "2021-04",
+   "2021-05",
+   "2021-06",
+   "2021-07",
+   "2021-08",
+   "2021-09",
+   "2021-10",
+   "2021-11",
+   "2021-12",
+   "2022-01",
+   "2022-02",
+   "2022-03",
+   "2022-04",
+   "2022-05",
+   "2022-06",
+   "2022-07",
+   "2022-08",
+   "2022-09",
+   "2022-10",
+   "2022-11",
+   "2022-12",
+   "2023-01",
+   "2023-02",
+   "2023-03",
+   "2023-04",
+   "2023-05",
+   "2023-06",
+   "2023-07",
+   "2023-08",
+   "2023-09",
+   "2023-10",
+   "2023-11",
+   "2023-12",
+   "2024-01",
+   "2024-02",
+   "2024-03",
+   "2024-04",
+   "2024-05",
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08",
+   "2026-09",
+   "2026-10"
+  ],
+  "equity": [
+   98.17,
+   91.37,
+   92.52,
+   89.17,
+   93.51,
+   94.44,
+   95.02,
+   96.02,
+   91.67,
+   95.33,
+   95.69,
+   92.8,
+   93.05,
+   93.66,
+   95.21,
+   96.24,
+   96.28,
+   87.61,
+   75.1,
+   83.43,
+   87.41,
+   90.24,
+   93.07,
+   96.26,
+   93.69,
+   88.69,
+   99.99,
+   106.08,
+   107.1,
+   107.99,
+   109.37,
+   112.94,
+   116.9,
+   118.84,
+   120.65,
+   123.9,
+   121.08,
+   126.44,
+   121.31,
+   123.07,
+   115.97,
+   109.04,
+   111.97,
+   102.69,
+   101.11,
+   94.24,
+   99.19,
+   94.74,
+   87.7,
+   92.83,
+   99.13,
+   97.86,
+   104.47,
+   103.54,
+   104.45,
+   107.25,
+   108.08,
+   114.12,
+   119.52,
+   115.18,
+   111.14,
+   112.7,
+   119.53,
+   125.49,
+   125.62,
+   132.28,
+   134.88,
+   134.33,
+   137.72,
+   140.88,
+   136.9,
+   138.09,
+   137.44,
+   133.43,
+   136.58,
+   136.29,
+   143.47,
+   145.26,
+   143.78,
+   146.4,
+   153.0,
+   157.19,
+   160.28,
+   159.14,
+   162.57,
+   167.94,
+   167.11,
+   171.1,
+   178.35,
+   180.18,
+   169.91,
+   182.6,
+   194.73,
+   193.6,
+   197.9,
+   205.76,
+   207.45,
+   203.35
+  ],
+  "mixed": [
+   99.09,
+   96.43,
+   97.17,
+   96.48,
+   98.72,
+   98.69,
+   98.92,
+   99.38,
+   98.04,
+   100.02,
+   100.49,
+   99.5,
+   99.63,
+   100.17,
+   100.6,
+   100.97,
+   100.97,
+   97.2,
+   91.19,
+   95.79,
+   98.06,
+   99.42,
+   100.9,
+   102.09,
+   101.21,
+   98.8,
+   103.98,
+   106.43,
+   106.97,
+   106.19,
+   106.64,
+   107.84,
+   109.46,
+   110.31,
+   111.3,
+   112.6,
+   111.29,
+   111.74,
+   108.54,
+   108.37,
+   105.85,
+   102.09,
+   101.54,
+   95.64,
+   95.2,
+   91.69,
+   95.55,
+   92.22,
+   88.24,
+   88.85,
+   95.03,
+   95.59,
+   99.99,
+   98.98,
+   99.97,
+   102.09,
+   102.1,
+   105.17,
+   108.13,
+   106.51,
+   104.98,
+   106.86,
+   109.62,
+   108.62,
+   108.93,
+   111.18,
+   112.26,
+   112.16,
+   114.83,
+   116.27,
+   115.7,
+   116.42,
+   116.57,
+   113.98,
+   115.86,
+   115.04,
+   118.1,
+   120.14,
+   120.74,
+   123.16,
+   124.61,
+   125.98,
+   127.66,
+   127.25,
+   127.97,
+   130.28,
+   131.26,
+   132.93,
+   136.45,
+   137.96,
+   132.26,
+   135.98,
+   140.15,
+   141.2,
+   142.41,
+   143.76,
+   143.5,
+   143.65
+  ],
+  "bond": [
+   100.05,
+   100.17,
+   100.04,
+   100.67,
+   102.59,
+   103.99,
+   104.39,
+   104.56,
+   105.11,
+   105.77,
+   106.52,
+   107.07,
+   107.13,
+   107.36,
+   107.49,
+   107.57,
+   108.0,
+   108.53,
+   105.58,
+   106.89,
+   108.41,
+   108.2,
+   108.88,
+   108.92,
+   109.28,
+   109.88,
+   110.63,
+   110.88,
+   111.81,
+   111.13,
+   111.19,
+   111.11,
+   110.74,
+   111.11,
+   111.32,
+   111.28,
+   110.61,
+   108.72,
+   107.52,
+   106.49,
+   105.93,
+   105.23,
+   102.61,
+   100.2,
+   100.23,
+   98.78,
+   102.11,
+   100.78,
+   99.09,
+   97.43,
+   101.67,
+   102.47,
+   105.68,
+   105.08,
+   106.47,
+   107.29,
+   107.7,
+   108.8,
+   110.28,
+   110.62,
+   110.86,
+   111.79,
+   113.15,
+   114.08,
+   114.94,
+   114.97,
+   115.49,
+   115.13,
+   114.98,
+   115.67,
+   117.17,
+   117.98,
+   118.92,
+   117.88,
+   119.48,
+   119.07,
+   119.71,
+   120.68,
+   121.0,
+   122.81,
+   122.98,
+   123.51,
+   124.68,
+   125.25,
+   125.99,
+   127.33,
+   127.92,
+   128.41,
+   129.76,
+   130.89,
+   127.79,
+   128.78,
+   129.99,
+   131.98,
+   130.34,
+   130.05,
+   128.64,
+   129.28
+  ],
+  "short_bond": [
+   100.19,
+   100.36,
+   100.33,
+   100.49,
+   99.7,
+   98.71,
+   98.71,
+   99.02,
+   99.09,
+   99.38,
+   99.77,
+   99.67,
+   99.83,
+   100.32,
+   100.25,
+   100.42,
+   100.74,
+   100.74,
+   98.94,
+   99.05,
+   99.69,
+   100.17,
+   100.51,
+   100.66,
+   100.74,
+   101.11,
+   101.49,
+   101.52,
+   101.9,
+   101.93,
+   102.15,
+   102.18,
+   101.84,
+   101.85,
+   101.95,
+   101.95,
+   101.9,
+   101.0,
+   100.4,
+   100.23,
+   100.43,
+   99.51,
+   97.92,
+   96.99,
+   97.67,
+   97.11,
+   98.19,
+   98.56,
+   98.39,
+   97.16,
+   99.01,
+   100.95,
+   102.56,
+   103.06,
+   103.91,
+   104.77,
+   105.48,
+   106.06,
+   106.92,
+   107.43,
+   107.83,
+   107.92,
+   108.97,
+   111.12,
+   112.04,
+   112.73,
+   113.21,
+   113.71,
+   114.47,
+   114.97,
+   115.87,
+   116.46,
+   117.05,
+   117.3,
+   117.92,
+   118.31,
+   119.07,
+   120.16,
+   120.73,
+   121.42,
+   121.85,
+   122.54,
+   123.47,
+   124.01,
+   124.63,
+   125.23,
+   125.74,
+   126.22,
+   127.43,
+   128.15,
+   126.83,
+   127.53,
+   128.22,
+   129.24,
+   128.98,
+   129.0,
+   128.71,
+   129.19
+  ],
+  "absolute_return": [
+   95.5,
+   93.8,
+   92.36,
+   92.2,
+   92.57,
+   92.23,
+   92.36,
+   90.82,
+   90.1,
+   90.58,
+   89.64,
+   88.84,
+   89.43,
+   87.4,
+   88.77,
+   89.29,
+   89.12,
+   88.49,
+   80.0,
+   82.81,
+   81.3,
+   84.75,
+   86.03,
+   85.9,
+   85.26,
+   84.9,
+   85.58,
+   87.47,
+   87.83,
+   88.56,
+   90.36,
+   90.62,
+   90.32,
+   91.43,
+   90.91,
+   91.06,
+   90.51,
+   90.22,
+   88.79,
+   89.13,
+   86.7,
+   84.75,
+   85.55,
+   83.03,
+   82.53,
+   79.36,
+   79.47,
+   79.41,
+   78.04,
+   79.08,
+   80.91,
+   82.73,
+   84.2,
+   84.4,
+   85.5,
+   84.89,
+   85.09,
+   87.33,
+   87.56,
+   86.57,
+   85.5,
+   85.76,
+   86.75,
+   90.35,
+   90.8,
+   92.35,
+   94.16,
+   94.57,
+   95.57,
+   96.28,
+   93.37,
+   93.68,
+   94.1,
+   93.91,
+   94.63,
+   94.56,
+   95.09,
+   95.67,
+   95.65,
+   96.92,
+   97.94,
+   98.43,
+   98.62,
+   99.05,
+   100.57,
+   101.09,
+   101.69,
+   104.08,
+   106.08,
+   107.3,
+   105.3,
+   106.01,
+   107.27,
+   107.26,
+   108.25,
+   110.42,
+   109.42,
+   108.53
+  ]
+ },
+ "d5_rolling": [
+  {
+   "end": "2023-08",
+   "equity": 0.78,
+   "mixed": 0.69,
+   "bond": 0.36
+  },
+  {
+   "end": "2023-09",
+   "equity": 0.82,
+   "mixed": 0.63,
+   "bond": 0.36
+  },
+  {
+   "end": "2023-10",
+   "equity": 0.79,
+   "mixed": 0.57,
+   "bond": 0.38
+  },
+  {
+   "end": "2023-11",
+   "equity": 0.71,
+   "mixed": 0.63,
+   "bond": 0.4
+  },
+  {
+   "end": "2023-12",
+   "equity": 0.68,
+   "mixed": 0.59,
+   "bond": 0.4
+  },
+  {
+   "end": "2024-01",
+   "equity": 0.64,
+   "mixed": 0.61,
+   "bond": 0.4
+  },
+  {
+   "end": "2024-02",
+   "equity": 0.6,
+   "mixed": 0.63,
+   "bond": 0.39
+  },
+  {
+   "end": "2024-03",
+   "equity": 0.58,
+   "mixed": 0.65,
+   "bond": 0.39
+  },
+  {
+   "end": "2024-04",
+   "equity": 0.59,
+   "mixed": 0.65,
+   "bond": 0.39
+  },
+  {
+   "end": "2024-05",
+   "equity": 0.64,
+   "mixed": 0.66,
+   "bond": 0.4
+  },
+  {
+   "end": "2024-06",
+   "equity": 0.57,
+   "mixed": 0.67,
+   "bond": 0.4
+  },
+  {
+   "end": "2024-07",
+   "equity": 0.61,
+   "mixed": 0.66,
+   "bond": 0.4
+  },
+  {
+   "end": "2024-08",
+   "equity": 0.68,
+   "mixed": 0.67,
+   "bond": 0.4
+  },
+  {
+   "end": "2024-09",
+   "equity": 0.69,
+   "mixed": 0.67,
+   "bond": 0.38
+  },
+  {
+   "end": "2024-10",
+   "equity": 0.71,
+   "mixed": 0.65,
+   "bond": 0.41
+  },
+  {
+   "end": "2024-11",
+   "equity": 0.67,
+   "mixed": 0.66,
+   "bond": 0.37
+  },
+  {
+   "end": "2024-12",
+   "equity": 0.65,
+   "mixed": 0.65,
+   "bond": 0.39
+  },
+  {
+   "end": "2025-01",
+   "equity": 0.65,
+   "mixed": 0.68,
+   "bond": 0.38
+  },
+  {
+   "end": "2025-02",
+   "equity": 1.03,
+   "mixed": 0.73,
+   "bond": 0.37
+  },
+  {
+   "end": "2025-03",
+   "equity": 1.87,
+   "mixed": 0.85,
+   "bond": 0.33
+  },
+  {
+   "end": "2025-04",
+   "equity": 1.32,
+   "mixed": 0.75,
+   "bond": 0.27
+  },
+  {
+   "end": "2025-05",
+   "equity": 1.14,
+   "mixed": 0.72,
+   "bond": 0.25
+  },
+  {
+   "end": "2025-06",
+   "equity": 1.05,
+   "mixed": 0.7,
+   "bond": 0.25
+  },
+  {
+   "end": "2025-07",
+   "equity": 0.97,
+   "mixed": 0.68,
+   "bond": 0.21
+  },
+  {
+   "end": "2025-08",
+   "equity": 0.86,
+   "mixed": 0.66,
+   "bond": 0.2
+  },
+  {
+   "end": "2025-09",
+   "equity": 1.01,
+   "mixed": 0.68,
+   "bond": 0.17
+  },
+  {
+   "end": "2025-10",
+   "equity": 1.31,
+   "mixed": 0.73,
+   "bond": 0.12
+  },
+  {
+   "end": "2025-11",
+   "equity": 0.8,
+   "mixed": 0.65,
+   "bond": 0.11
+  },
+  {
+   "end": "2025-12",
+   "equity": 0.59,
+   "mixed": 0.62,
+   "bond": 0.1
+  },
+  {
+   "end": "2026-01",
+   "equity": 0.57,
+   "mixed": 0.6,
+   "bond": 0.05
+  },
+  {
+   "end": "2026-02",
+   "equity": 0.56,
+   "mixed": 0.6,
+   "bond": -0.02
+  },
+  {
+   "end": "2026-03",
+   "equity": 0.61,
+   "mixed": 0.65,
+   "bond": 0.2
+  },
+  {
+   "end": "2026-04",
+   "equity": 0.48,
+   "mixed": 0.64,
+   "bond": 0.15
+  },
+  {
+   "end": "2026-05",
+   "equity": 0.36,
+   "mixed": 0.63,
+   "bond": 0.08
+  },
+  {
+   "end": "2026-06",
+   "equity": 0.38,
+   "mixed": 0.63,
+   "bond": -0.01
+  },
+  {
+   "end": "2026-07",
+   "equity": 0.35,
+   "mixed": 0.63,
+   "bond": 0.11
+  },
+  {
+   "end": "2026-08",
+   "equity": 0.28,
+   "mixed": 0.64,
+   "bond": 0.14
+  },
+  {
+   "end": "2026-09",
+   "equity": 0.28,
+   "mixed": 0.61,
+   "bond": 0.24
+  },
+  {
+   "end": "2026-10",
+   "equity": 0.36,
+   "mixed": 0.62,
+   "bond": 0.21
+  }
+ ],
+ "levers": [
+  {
+   "key": "D1",
+   "label": "Deposits instead of Treasury bonds",
+   "conservative": 2.77,
+   "base": 9.19,
+   "aggressive": 18.23
+  },
+  {
+   "key": "D4",
+   "label": "PPK opt outs",
+   "conservative": 1.66,
+   "base": 3.13,
+   "aggressive": 5.46
+  },
+  {
+   "key": "D3",
+   "label": "Unused IKE and IKZE",
+   "conservative": 1.74,
+   "base": 2.83,
+   "aggressive": 4.38
+  },
+  {
+   "key": "D2",
+   "label": "Fees in investment funds",
+   "conservative": 1.03,
+   "base": 2.22,
+   "aggressive": 3.54
+  },
+  {
+   "key": "D5",
+   "label": "Poor timing",
+   "conservative": 0.3,
+   "base": 0.41,
+   "aggressive": 0.5
+  }
+ ],
+ "total": {
+  "conservative": 7.5,
+  "base": 17.8,
+  "aggressive": 32.1
+ }
+}
